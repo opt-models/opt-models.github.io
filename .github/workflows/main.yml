@@ -1,8 +1,6 @@
-# Sample workflow for building and deploying a Hugo site to GitHub Pages
-name: Deploy Hugo site to Pages
+name: Deploy Hugo site to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
@@ -15,15 +13,13 @@ permissions:
 # Environment variables available to all jobs and steps in this workflow
 env:
   HUGO_ENV: production
-  HUGO_VERSION: "0.118.2"
-  GO_VERSION: "1.20.5"
-  NODE_VERSION: "18.15.0"
-  TINA_CLIENT_ID: ${{ vars.TINA_CLIENT_ID }}
-  TINA_TOKEN: ${{ vars.TINA_TOKEN }}
+  HUGO_VERSION: "0.121.0"
+  GO_VERSION: "1.21.5"
+  NODE_VERSION: "20.9.0"
 
 jobs:
-  # Build job
-  build:
+
+  build:  # the Build job
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -62,8 +58,7 @@ jobs:
         with:
           path: ./public
 
-  # Deployment job
-  deploy:
+  deploy:   # the Deployment job
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
