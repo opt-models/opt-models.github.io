@@ -12,7 +12,7 @@ url = "about/"
 weight = 2
 
 [[main]]
-weight = 4
+weight = 3
 name = "Pages"
 hasChildren = true
 
