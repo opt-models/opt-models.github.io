@@ -2,17 +2,12 @@
 
 # main menu
 [[main]]
-name = "Home"
-url = "/"
+name = "About"
+url = "about/"
 weight = 1
 
 [[main]]
-name = "About"
-url = "about/"
 weight = 2
-
-[[main]]
-weight = 3
 name = "Pages"
 hasChildren = true
 
