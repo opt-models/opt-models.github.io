@@ -12,11 +12,6 @@ url = "about/"
 weight = 2
 
 [[main]]
-name = "Elements"
-url = "elements/"
-weight = 3
-
-[[main]]
 weight = 4
 name = "Pages"
 hasChildren = true
