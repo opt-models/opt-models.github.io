@@ -1,32 +1,20 @@
-######################## default configuration ####################
-# The base URL of your site (required). This will be prepended to all relative URLs.
-baseURL = "/"
-# Title of your website (required).
-title = "Hugoplate"
-# Your theme name
-theme = "hugoplate"
-# Default time zone for time stamps; use any valid tz database name: https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
-timeZone = "America/New_York"
-# post pagination
-paginate = 2 # see https://gohugo.io/extras/pagination/
-# post excerpt
-summaryLength = 10 # see https://gohugo.io/content-management/excerpts/
-# google analytics
-googleAnalytics = "G-MEASUREMENT_ID" # see https://gohugo.io/templates/internal/#configure-google-analytics
-# disqus short name
-disqusShortname = "themefisher-template" # we use disqus to show comments in blog posts . To install disqus please follow this tutorial https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
-# disable language
-disableLanguages = [
-] # example: ["fr"] for disable french language. see https://gohugo.io/content-management/multilingual/
-hasCJKLanguage = false #  If hasCJKLanguage true, auto-detect Chinese/Japanese/Korean Languages in the content. see: https://gohugo.io/getting-started/configuration/#hascjklanguage
+### main config ###
+baseURL = "/"                              # the base URL of site, prepended to all relative URLs
+title = "opt-models"                       # website title
+theme = "hugoplate"                        # rheme name
+timeZone = "America/New_York"              # default time zone for time stamps, see https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List
+paginate = 2                               # post pagination, see https://gohugo.io/extras/pagination/
+summaryLength = 10                         # post excerpt length, see https://gohugo.io/content-management/excerpts/ 
+googleAnalytics = "G-MEASUREMENT_ID"       # dee https://gohugo.io/templates/internal/#configure-google-analytics
+disqusShortname = "themefisher-template"   # disqus can show comments in blog posts. To install, see https://portfolio.peter-baumgartner.net/2017/09/10/how-to-install-disqus-on-hugo/
+disableLanguages = []                      # for example, ["fr"] disables French. See https://gohugo.io/content-management/multilingual/
+hasCJKLanguage = false                     # if true, auto-detects Chinese/Japanese/Korean languages in content. See https://gohugo.io/getting-started/configuration/#hascjklanguage
 
-
-########################## Permalinks ############################
+### permalinks ###
 [permalinks.page]
 "pages" = "/:slugorfilename/"
 
-
-############################# Modules ############################
+### modules ###
 [module]
 [[module.mounts]]
 source = "assets"
@@ -36,7 +24,7 @@ target = "assets"
 source = "hugo_stats.json"
 target = "assets/watching/hugo_stats.json"
 
-############################# Build ##############################
+### build ###
 [build]
 noJSConfigInAssets = false
 useResourceCacheWhen = 'fallback'
@@ -61,19 +49,16 @@ target = 'css'
 source = 'assets/.*\.(.*)$'
 target = '$1'
 
-
-############################# Outputs ############################
+### outputs ###
 [outputs]
 home = ["HTML", "RSS", "WebAppManifest", "SearchIndex"]
 
-############################# Imaging ############################
-[imaging]
-# See https://github.com/disintegration/imaging
-# Default JPEG or WebP quality setting. Default is 75.
+### imaging ###
+[imaging] # default JPEG & WebP quality setting. See https://github.com/disintegration/imaging
 quality = 90
 resampleFilter = "Lanczos"
 
-############################ Caches ##############################
+### caches ###
 [caches]
 [caches.images]
 dir = ":resourceDir/_gen"
@@ -83,8 +68,7 @@ maxAge = "720h"
 dir = ":resourceDir/_gen"
 maxAge = "720h"
 
-
-############################ Markup ##############################
+### markup ###
 [markup]
 [markup.goldmark.renderer]
 unsafe = true
@@ -97,14 +81,12 @@ startLevel = 2
 endLevel = 5
 ordered = true
 
-
-########################### Media types ###########################
+### media types ###
 [mediaTypes]
 [mediaTypes."application/manifest+json"]
 suffixes = ["webmanifest"]
 
-
-########################### Output Format ##########################
+### output format ###
 [outputFormats]
 [outputFormats.WebAppManifest]
 mediaType = "application/manifest+json"
@@ -116,8 +98,7 @@ baseName = "searchindex"
 isPlainText = true
 notAlternative = true
 
-
-############################# Plugins ##############################
+### plugins ###
 
 # CSS Plugins
 [[params.plugins.css]]
