@@ -32,7 +32,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 custom_script = ""
 
 # copyright
-copyright = "© 2023 [Martin Laskowski](https://martinlaskowski.com/) | Content licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) except where otherwise noted | Theme by [Zeon Studio](https://zeon.studio)"
+copyright = "© 2023 [Martin Laskowski](https://martinlaskowski.com/) | [Privacy](privacy-policy/) | [MIT License ](https://github.com/MartinLaskowski/opt-models.github.io/blob/main/LICENSE-FOR-CONTENT) unless otherwise noted | Theme by [Zeon Studio](https://zeon.studio)"
 
 # image preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
 [preloader]
