@@ -1,11 +1,36 @@
 [[main]]
-none = "none"
+name = "compendium"
+pageRef = "compendium"
+identifier = "UOmYmioDtG"
+weight = 1
 
 [[main]]
-name = "models"
-pageRef = "models"
-identifier = "CyLNyh3lZQ"
-weight = 9999
+name = "code"
+pre = "github"
+url = "https://github.com/orgs/opt-models/repositories"
+identifier = "dTITSY7hX1"
+weight = 2
+
+[[main]]
+name = "community"
+pageRef = "community"
+identifier = "MUB2RlvqGj"
+weight = 3
+
+[[main]]
+name = "wish lists"
+pageRef = "lists"
+identifier = "mMlPIzqekI"
+weight = 4
+
+[[main]]
+name = "resources"
+pageRef = "resources"
+identifier = "O3XtDfPKJz"
+weight = 5
 
 [[footer]]
-none = "none"
+name = "privacy"
+pageRef = "privacy"
+identifier = "ekNullagKF"
+weight = 1
