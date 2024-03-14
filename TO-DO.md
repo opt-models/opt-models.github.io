@@ -19,12 +19,24 @@
   - [ ] add facet 3: solving hardness (via Big *O* Complexity?)
 
 ## Social Links
-- [ ] add Maven link in footer
+- [ ] add Maven (with custom icon) to:  
+  - [ ] Community page (per tag? ... e.g "optimization")
+  - [ ] per post
 
 ## Aesthetics
 - [ ] add colors to nav interactions
 - [ ] improve favicon size and location on desktop Chrome
 - [ ] test mobile and tablet views
+- [ ] experiment with Blowfish options:
+  - [ ] style of hero images in articles
+  - [ ] removing space between the header and the body in articles
+  - [ ] Show/Hide breadcrumbs in articles
+  - [ ] Show/Hide table of contents in articles
+  - [ ] Show/Hide related content in articles
+  - [ ] Number of related items to show in articles
+  - [ ] Show/Hide taxonomies in articles
+  - [ ] Show/Hide author badges in articles
+  - [ ] Show/hide zen mode in articles
 
 ## Performance
 - [ ] test image compression
