@@ -8,5 +8,395 @@
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 00:01 Welcome to the Optimization Impostors&#39; Compendium</title>
+      <link>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 00:02 What&#39;s inside...</title>
+      <link>http://localhost:1313/compendium/welcome-overview/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/welcome-overview/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-overview/feature-00-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 00:03 Talk on Maven</title>
+      <link>http://localhost:1313/compendium/welcome-maven/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/welcome-maven/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 01: The magical nature of Optimization Programming</title>
+      <link>http://localhost:1313/compendium/magical-optimization-programming/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/magical-optimization-programming/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/magical-optimization-programming/feature-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:01 Optimization Toolchain: Major Component Overview</title>
+      <link>http://localhost:1313/compendium/toolchain-components/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-components/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:02 Optimization Toolchain: Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:03 Optimization Toolchain: Data Sources</title>
+      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:04 Optimization Toolchain: User Interfaces</title>
+      <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:05 Optimization Toolchain: &#39;Glue&#39; Languages</title>
+      <link>http://localhost:1313/compendium/toolchain-glue-languages/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-glue-languages/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-glue-languages/feature-02-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 03: The five parts of an Optimization Model</title>
+      <link>http://localhost:1313/compendium/optimization-model-parts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/optimization-model-parts/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-model-parts/feature-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 04: Dev Creature Comforts</title>
+      <link>http://localhost:1313/compendium/dev-creature-comforts/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/dev-creature-comforts/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/dev-creature-comforts/feature-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:01 LEGO® Opt App: The Problem Description</title>
+      <link>http://localhost:1313/compendium/lego-app-problem-description/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-problem-description/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-problem-description/feature-05-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:02 LEGO® Opt App: Plan the Buildout</title>
+      <link>http://localhost:1313/compendium/lego-app-buildout-plan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-buildout-plan/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-buildout-plan/feature-05-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:03 LEGO® Opt App: Unbox the Data!</title>
+      <link>http://localhost:1313/compendium/lego-app-data-unboxing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-data-unboxing/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-data-unboxing/feature-05-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:04 LEGO® Opt App: Sketch the Model</title>
+      <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-sketch-the-model/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:06 LEGO® Opt App: Group SETS</title>
+      <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-group-sets/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-group-sets/feature-05-06-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:07 LEGO® Opt App: Add a Text-based User Interface</title>
+      <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-text-user-interface/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-write-the-model/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-write-the-model/feature-05-08-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:10 LEGO® Opt App: Make on-the-fly model mods</title>
+      <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:11 LEGO® Opt App: Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-solver-tuning/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:12 LEGO® Opt App: Switch our glue land to Python</title>
+      <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:13 LEGO® Opt App: Add a Streamlit User Interface</title>
+      <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:15 LEGO® Opt App: Let&#39;s Containerize!</title>
+      <link>http://localhost:1313/compendium/lego-app-containerization/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-containerization/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-containerization/feature-05-15-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:16 LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
+      <link>http://localhost:1313/compendium/lego-app-hardware/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-hardware/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-hardware/feature-05-16-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:17 LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
+      <link>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:18 LEGO® Opt App: RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/feature-05-18-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:01 Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
+      <link>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:02 Practical Opt Theory: Optimization Problem Types</title>
+      <link>http://localhost:1313/compendium/theory-optimization-problem-types/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-optimization-problem-types/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:03 Practical Opt Theory: Optimization Problem Hardness</title>
+      <link>http://localhost:1313/compendium/theory-optimization-problem-hardness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-optimization-problem-hardness/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:04 Practical Opt Theory: Optimization Methods</title>
+      <link>http://localhost:1313/compendium/theory-optimization-methods/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-optimization-methods/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-methods/feature-06-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:05 Practical Opt Theory: The Myth of the Objective</title>
+      <link>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 07:-- Speeding Opt Apps</title>
+      <link>http://localhost:1313/compendium/speeding-opt-apps/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/speeding-opt-apps/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/speeding-opt-apps/feature-07-XX-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 08:-- Predictions: Opt Tools, Skills and Apps beyond 2024</title>
+      <link>http://localhost:1313/compendium/optimization-markets-beyond-2024/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/optimization-markets-beyond-2024/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-markets-beyond-2024/feature-08-XX-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 09: Opt ❤️ AI</title>
+      <link>http://localhost:1313/compendium/opt-loves-ai/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/opt-loves-ai/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/opt-loves-ai/feature-09-XX-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 10: Thank you to...</title>
+      <link>http://localhost:1313/compendium/thank-you/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/thank-you/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/thank-you/feature-10-XX-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 11: Hey, Community!</title>
+      <link>http://localhost:1313/compendium/hey-community/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/hey-community/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/hey-community/feature-11-XX-coming-soon.png" />
+    </item>
+    
   </channel>
 </rss>

@@ -18,13 +18,16 @@
   - [ ] add facet 2: formulation types
   - [ ] add facet 3: solving hardness (via Big *O* Complexity?)
 
-## Social Links
+## Social and Sharing Links
 - [ ] add Maven (with custom icon) to:  
   - [ ] Community page (per tag? ... e.g "optimization")
   - [ ] per post
+- [ ] add sharingLinks per post
+
 
 ## Aesthetics
-- [ ] add colors to nav interactions
+- [ ] add feature images to Compendium chapters
+- [ ] experiment with heroStyle on home page
 - [ ] improve favicon size and location on desktop Chrome
 - [ ] test mobile and tablet views
 - [ ] experiment with Blowfish options:
@@ -42,5 +45,9 @@
 - [ ] test image compression
 - [ ] test load speeds
 
+## SEO and Good Web Citizenship
+- [ ] add 'robots' front matter / params, per https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives
+
 ## Misc
 - [ ] add and test Google Analytics
+- [ ] (maybe) integrate Firebase for view and likes (https://blowfish.page/docs/firebase-views/)

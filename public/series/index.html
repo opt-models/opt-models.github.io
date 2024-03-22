@@ -11,7 +11,7 @@
   <title>Series &middot; opt-models</title>
   <meta name="title" content="Series &middot; opt-models" />
   
-  
+  <meta name="description" content="A compendium of video conversations and code for folks building large-scale optimization models and integrating these into real-time applications in the wild." />
   
   
   
@@ -66,13 +66,13 @@
   
   
   <meta property="og:title" content="Series" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="A compendium of video conversations and code for folks building large-scale optimization models and integrating these into real-time applications in the wild." />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="http://localhost:1313/series/" />
 
 
   <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Series"/>
-<meta name="twitter:description" content=""/>
+<meta name="twitter:description" content="A compendium of video conversations and code for folks building large-scale optimization models and integrating these into real-time applications in the wild."/>
 
   
   
@@ -135,14 +135,28 @@
   </div>
   
   
-  <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">opt-models</span>
+
+            <img src="/img/logo-darkmode.png" width="640" height="320"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="opt-models" />
+
+        </a>
+    </div>
     
     <div class="flex flex-1 items-center justify-between">
         <nav class="flex space-x-3">
 
-            
-            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">opt-models</a>
             
 
         </nav>
@@ -151,7 +165,7 @@
             
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
         compendium
@@ -346,7 +360,7 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
             compendium
@@ -437,6 +451,16 @@
 
 
 
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
 
   
   <div class="relative flex flex-col grow">

@@ -8,9 +8,9 @@ title = "opt-models"
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  # logo = "img/logo.png"
+  logo = "img/logo-darkmode.png"
   # secondaryLogo = "img/secondary-logo.png"
-  # description = "My awesome website"
+  description = "A compendium of video conversations and code for folks building large-scale optimization models and integrating these into real-time applications in the wild."
   # copyright = "Copy, _right?_ :thinking_face:"
 
 [author]

@@ -4,10 +4,10 @@ autoSwitchAppearance = false
 enableSearch = true
 enableCodeCopy = true
 disableImageOptimization = false
-disableTextInHeader = false
+disableTextInHeader = true
 
 [header]
-layout = "basic"
+layout = "fixed-fill-blur"
 
 [footer]
 showMenu = true
@@ -17,7 +17,8 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page"
+layout = "page" #background
+#homepageImage = "img/background.jpg"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
@@ -33,7 +34,7 @@ showLikes = false
 showDateOnlyInArticle = false
 showDateUpdated = false
 showAuthor = false
-showHero = true
+showHero = false
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = true
@@ -41,14 +42,14 @@ showDraftLabel = true
 showEdit = false
 editAppendPath = true
 seriesOpened = false
-showHeadingAnchors = true
+showHeadingAnchors = false
 showPagination = true
 invertPagination = false
 showReadingTime = false
 showTableOfContents = true
-showTaxonomies = false
+showTaxonomies = true
 showAuthorsBadges = false
-showWordCount = true
+showWordCount = false
 showZenMode = false
 heroStyle = "basic"
 showRelatedContent = false
@@ -63,7 +64,7 @@ showViews = false
 showLikes = false
 showTableOfContents = false
 showCards = false
-groupByYear = true
+groupByYear = false
 cardView = false
 cardViewScreenWidth = false
 constrainItemsWidth = false
