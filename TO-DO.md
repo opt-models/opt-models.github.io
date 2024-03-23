@@ -1,13 +1,18 @@
 # To-Do
 
 ## Pages and Navigation
+- [x] make Privacy Policy text shorter and clearer
 - [ ] make home page
-  - [ ] set "compendium" menu item to link to home page ("/")
-  - [ ] add compendium sections as expandable/clickable cards
-- [ ] Community page
-  - [ ] add "contribute models!" form
+  - [ ] add hero
+  - [ ] add intro
+  - [ ] add select Compendium sections
+- [ ] make Compendium page
+  - [ ] add series
+  - [ ] add post descriptions
+- [ ] make Community page
+  - [ ] add "contribute models!" CTA
 - [ ] customize 404 page
-- [x] make Privacy page text shorter and clearer
+- [ ] update Privacy Policy
 
 ## Search
 - [ ] add faceted search for models
@@ -19,32 +24,31 @@
 - [ ] add Maven (with custom icon) to:  
   - [ ] Community page (per tag? ... e.g "optimization")
   - [ ] per post
-- [ ] add sharingLinks per post
+  - [ ] add sharingLinks per post 
 
 
 ## Aesthetics
-- [ ] add feature images to Compendium chapters
-- [ ] experiment with heroStyle on home page
-- [ ] improve favicon size and location on desktop Chrome
+- [x] add feature images to Compendium chapters
+- [x] experiment with heroStyle on home page
+- [x] experiment with Blowfish options:
+  - [x] style of hero images in articles
+  - [x] removing space between the header and the body in articles
+  - [x] Show/Hide breadcrumbs in articles
+  - [x] Show/Hide table of contents in articles
+  - [x] Show/Hide related content in articles
+  - [x] Number of related items to show in articles
+  - [x] Show/Hide taxonomies in articles
+  - [x] Show/Hide author badges in articles
+  - [x] Show/hide zen mode in articles
 - [ ] test mobile and tablet views
-- [ ] experiment with Blowfish options:
-  - [ ] style of hero images in articles
-  - [ ] removing space between the header and the body in articles
-  - [ ] Show/Hide breadcrumbs in articles
-  - [ ] Show/Hide table of contents in articles
-  - [ ] Show/Hide related content in articles
-  - [ ] Number of related items to show in articles
-  - [ ] Show/Hide taxonomies in articles
-  - [ ] Show/Hide author badges in articles
-  - [ ] Show/hide zen mode in articles
 
 ## Performance
 - [ ] test image compression
 - [ ] test load speeds
 
 ## SEO and Good Web Citizenship
-- [ ] add 'robots' front matter / params, per https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives
+- [ ] add 'robots' via front matter and/or params, per https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives
 
 ## Misc
-- [ ] add and test Google Analytics
+- [ ] add and test Fathom Analytics
 - [ ] integrate Firebase for showViews and showLikes (https://blowfish.page/docs/firebase-views/)
