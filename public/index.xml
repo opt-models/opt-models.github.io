@@ -7,25 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title></title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/about/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 00:01 Welcome to the Optimization Impostors&#39; Compendium</title>
       <link>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</guid>
-      <description></description>
+      <description>Describing the Compendium, its intended audience, its focus on computation speed and a code-first approach to building optimization models, its author, me (Martin Laskowski) and my motivations for creating this resource.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Privacy Policy</title>
+      <link>http://localhost:1313/privacy/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/privacy/</guid>
+      <description>(Folks, I&amp;rsquo;ve worked to make this as short and plain as possible but please contact me at caretaker@opt-models.org if anything here seems less than clear and fair. &amp;ndash; Martin Laskowski)
+EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</description>
+      
     </item>
     
     <item>
@@ -34,7 +35,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-overview/</guid>
-      <description></description>
+      <description>An overview of the contents and release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-overview/feature-00-02-coming-soon.png" />
     </item>
     
@@ -44,7 +45,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-maven/</guid>
-      <description></description>
+      <description>You are invited to discuss the topics covered in the Compendium on the new Maven social media platform, which is structured around a graph of topical connections - the &amp;ldquo;interest graph&amp;rdquo; - rather than the typical &amp;ldquo;friend/social graphs&amp;rdquo; of other networks.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
     </item>
     

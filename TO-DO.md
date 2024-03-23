@@ -7,10 +7,7 @@
 - [ ] Community page
   - [ ] add "contribute models!" form
 - [ ] customize 404 page
-- [ ] make Privacy page text shorter and clearer
-
-## Footer
-- [ ] more Privacy link to lower footer copyright line
+- [x] make Privacy page text shorter and clearer
 
 ## Search
 - [ ] add faceted search for models
@@ -50,4 +47,4 @@
 
 ## Misc
 - [ ] add and test Google Analytics
-- [ ] (maybe) integrate Firebase for view and likes (https://blowfish.page/docs/firebase-views/)
+- [ ] integrate Firebase for showViews and showLikes (https://blowfish.page/docs/firebase-views/)

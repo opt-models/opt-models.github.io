@@ -1,13 +1,19 @@
 colorScheme = "blowfish"
 defaultAppearance = "dark"
 autoSwitchAppearance = false
+
 enableSearch = true
 enableCodeCopy = true
+
 disableImageOptimization = false
 disableTextInHeader = true
 
+defaultBackgroundImage = "/img/background.svg"
+
+mainSections = ["compendium"]
+
 [header]
-layout = "fixed-fill-blur"
+layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
 showMenu = true
@@ -17,8 +23,7 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "page" #background
-#homepageImage = "img/background.jpg"
+layout = "background"
 showRecent = false
 showRecentItems = 5
 showMoreLink = false
@@ -56,6 +61,7 @@ showRelatedContent = false
 
 [list]
 showHero = false
+WheroStyle = "big" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
 showBreadcrumbs = false
@@ -65,7 +71,7 @@ showLikes = false
 showTableOfContents = false
 showCards = false
 groupByYear = false
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 constrainItemsWidth = false
 

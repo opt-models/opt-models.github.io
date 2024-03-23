@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>opt-models</title>
+    <title>Compendia on opt-models</title>
     <link>http://localhost:1313/compendium/</link>
-    <description>Recent content on opt-models</description>
+    <description>Recent content in Compendia on opt-models</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Part 00:01 Welcome to the Optimization Impostors&#39; Compendium</title>
       <link>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</guid>
-      <description></description>
+      <description>Describing the Compendium, its intended audience, its focus on computation speed and a code-first approach to building optimization models, its author, me (Martin Laskowski) and my motivations for creating this resource.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
     </item>
     
@@ -24,7 +24,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-overview/</guid>
-      <description></description>
+      <description>An overview of the contents and release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-overview/feature-00-02-coming-soon.png" />
     </item>
     
@@ -34,7 +34,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-maven/</guid>
-      <description></description>
+      <description>You are invited to discuss the topics covered in the Compendium on the new Maven social media platform, which is structured around a graph of topical connections - the &amp;ldquo;interest graph&amp;rdquo; - rather than the typical &amp;ldquo;friend/social graphs&amp;rdquo; of other networks.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
     </item>
     
