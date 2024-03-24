@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Serendipity on opt-models</title>
+    <link>http://localhost:1313/tags/serendipity/</link>
+    <description>Recent content in Serendipity on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Mon, 19 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/serendipity/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 06:05 Practical Opt Theory: The Myth of the Objective</title>
+      <link>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</guid>
+      <description>An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &amp;lsquo;Why Greatness Cannot Be Planned&amp;rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

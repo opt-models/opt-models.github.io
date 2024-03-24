@@ -1,6 +1,15 @@
 ---
-title: "Part 06:03 Practical Opt Theory: Optimization Problem Hardness"
+title: "Practical Opt Theory: Optimization Problem Hardness"
 description: "A discussion about the attributes of an optimization problem that make it harder to solve, such as combinatorial explosions, a lack of exploitable graph or other structure, and the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness."
-showAuthor: true
+
+editURL: "https://github.com/opt-models/opt-models.github.io/tree/main/content/compendium/theory-optimization-problem-hardness/index.md"
+
+date: "2024-02-21"
+lastmod: "2024-03-23"
+
+tags: [Problem Hardness,Combinatorial Explosions]
+series: [Practical Optimization Theory]
+series_order: 3
 ---
 
+Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.

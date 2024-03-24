@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Simplex on opt-models</title>
+    <link>http://localhost:1313/tags/simplex/</link>
+    <description>Recent content in Simplex on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/simplex/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 01: The magical nature of Optimization Programming</title>
+      <link>http://localhost:1313/compendium/magical-optimization-programming/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/magical-optimization-programming/</guid>
+      <description>Optimization programming is an extremely declarative paradigm which is beyond fantastic and also exactly why many newcomers get into trouble.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/magical-optimization-programming/feature-01-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Opt Toolchain on opt-models</title>
+    <link>http://localhost:1313/series/opt-toolchain/</link>
+    <description>Recent content in Opt Toolchain on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/opt-toolchain/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimization Toolchain: User Interfaces</title>
+      <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
+      <description>A look at common practical as well as fancy means by which humans can interact with optimization models.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Modeling Tools on opt-models</title>
+    <link>http://localhost:1313/tags/modeling-tools/</link>
+    <description>Recent content in Modeling Tools on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/modeling-tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 02:01 Optimization Toolchain: Major Component Overview</title>
+      <link>http://localhost:1313/compendium/toolchain-components/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-components/</guid>
+      <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 08:-- Predictions: Opt Tools, Skills and Apps beyond 2024</title>
+      <link>http://localhost:1313/compendium/optimization-markets-beyond-2024/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/optimization-markets-beyond-2024/</guid>
+      <description>My perspective on the markets for optimization products, services and skills in 2024 and beyond. I address developers, students, tool buyers and vendors in light of the current AI explosion.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-markets-beyond-2024/feature-08-XX-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-Assisted Coding on opt-models</title>
+    <link>http://localhost:1313/tags/ai-assisted-coding/</link>
+    <description>Recent content in AI-Assisted Coding on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-assisted-coding/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 05:13 LEGO® Opt App: Add a Streamlit User Interface</title>
+      <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</guid>
+      <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 09: Opt ❤️ AI</title>
+      <link>http://localhost:1313/compendium/opt-loves-ai/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/opt-loves-ai/</guid>
+      <description>A show-and-tell discussion of generative AI&amp;rsquo;s current value in writing optimization models, data integrations, tests, UIs. Also some discussion about readability of natural vs AML language for humans.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/opt-loves-ai/feature-09-XX-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

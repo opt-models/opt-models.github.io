@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Objectives on opt-models</title>
+    <link>http://localhost:1313/tags/objectives/</link>
+    <description>Recent content in Objectives on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/objectives/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 03: The five parts of an Optimization Model</title>
+      <link>http://localhost:1313/compendium/optimization-model-parts/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/optimization-model-parts/</guid>
+      <description>An unpacking of the five major components of an optimization model: SETS, parameters, Variables, Objective and Constraints.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-model-parts/feature-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:01 LEGO® Opt App: The Problem Description</title>
+      <link>http://localhost:1313/compendium/lego-app-problem-description/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-problem-description/</guid>
+      <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-problem-description/feature-05-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:04 LEGO® Opt App: Sketch the Model</title>
+      <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-sketch-the-model/</guid>
+      <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:05 Practical Opt Theory: The Myth of the Objective</title>
+      <link>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</link>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</guid>
+      <description>An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &amp;lsquo;Why Greatness Cannot Be Planned&amp;rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

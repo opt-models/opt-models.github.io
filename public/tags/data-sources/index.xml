@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Sources on opt-models</title>
+    <link>http://localhost:1313/tags/data-sources/</link>
+    <description>Recent content in Data Sources on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/data-sources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 02:01 Optimization Toolchain: Major Component Overview</title>
+      <link>http://localhost:1313/compendium/toolchain-components/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-components/</guid>
+      <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 02:03 Optimization Toolchain: Data Sources</title>
+      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
+      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

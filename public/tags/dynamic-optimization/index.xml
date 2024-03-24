@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dynamic Optimization on opt-models</title>
+    <link>http://localhost:1313/tags/dynamic-optimization/</link>
+    <description>Recent content in Dynamic Optimization on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dynamic-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
+      <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 06:04 Practical Opt Theory: Optimization Methods</title>
+      <link>http://localhost:1313/compendium/theory-optimization-methods/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-optimization-methods/</guid>
+      <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-methods/feature-06-04-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

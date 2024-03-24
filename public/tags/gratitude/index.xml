@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gratitude on opt-models</title>
+    <link>http://localhost:1313/tags/gratitude/</link>
+    <description>Recent content in Gratitude on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Tue, 02 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gratitude/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 10: Thank you to...</title>
+      <link>http://localhost:1313/compendium/thank-you/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/thank-you/</guid>
+      <description>Thanks to the folks without whom this would not happen: Seth Godin, Steve Walters, The Black Crowes, Martha Wells and Murderbot, Techno Tim, Christian Lempa, Veronica Explains, Lawrence Systems, Jeff Delaney and Fireship.io, Nuno Coração and Blowfish, the Rebrickable Team, Rebecca and you.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/thank-you/feature-10-XX-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

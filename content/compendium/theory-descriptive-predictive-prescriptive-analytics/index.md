@@ -1,6 +1,15 @@
 ---
-title: "Part 06:01 Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics"
-description: "A discussion about where mathematical optimization methods - large-scale and otherwise - are commonly implemented, sometimes as the Prescriptive component that follows Predictive and/or Descriptive components in a modern Data Science workflow."
-showAuthor: true
+title: "Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics"
+description: "My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline."
+
+editURL: "https://github.com/opt-models/opt-models.github.io/tree/main/content/compendium/theory-descriptive-predictive-prescriptive-analytics/index.md"
+
+date: "2024-02-23"
+lastmod: "2024-03-23"
+
+tags: [Descriptive Analytics,Predictive Analytics,Prescriptive Analytics]
+series: [Practical Optimization Theory]
+series_order: 1
 ---
 
+My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.

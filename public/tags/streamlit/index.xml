@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Streamlit on opt-models</title>
+    <link>http://localhost:1313/tags/streamlit/</link>
+    <description>Recent content in Streamlit on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Sat, 16 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimization Toolchain: User Interfaces</title>
+      <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
+      <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:13 LEGO® Opt App: Add a Streamlit User Interface</title>
+      <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</guid>
+      <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
+      <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

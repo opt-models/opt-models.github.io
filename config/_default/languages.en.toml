@@ -34,7 +34,7 @@ title = "opt-models"
 #     { stack-overflow = "https://stackoverflow.com/users/userid/username" },
 #     { twitch = "https://twitch.tv/username" },
 #     { twitter = "https://twitter.com/username" },
-#     { x-twitter = "https://twitter.com/martylasky" },
+    { x-twitter = "https://twitter.com/martylasky" },
     { youtube = "https://www.youtube.com/@MartinLaskowski" },
 #     { ko-fi = "https://ko-fi.com/username" },
   ]

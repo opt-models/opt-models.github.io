@@ -7,13 +7,113 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Welcome!</title>
       <link>http://localhost:1313/series/welcome/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/series/welcome/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Optimization Toolchain</title>
+      <link>http://localhost:1313/series/the-optimization-toolchain/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/the-optimization-toolchain/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Building the LEGO® Opt App</title>
+      <link>http://localhost:1313/series/building-the-lego-opt-app/</link>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/building-the-lego-opt-app/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>App Build Plan</title>
+      <link>http://localhost:1313/series/app-build-plan/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/app-build-plan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Speed</title>
+      <link>http://localhost:1313/series/speed/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/speed/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Practical Optimization Theory</title>
+      <link>http://localhost:1313/series/practical-optimization-theory/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/practical-optimization-theory/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Speeding Optimization Apps</title>
+      <link>http://localhost:1313/series/speeding-optimization-apps/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/speeding-optimization-apps/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Optimization Market Predictions</title>
+      <link>http://localhost:1313/series/optimization-market-predictions/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/optimization-market-predictions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Optimization ❤️ AI</title>
+      <link>http://localhost:1313/series/optimization-%EF%B8%8F-ai/</link>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/optimization-%EF%B8%8F-ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Thank You to ...</title>
+      <link>http://localhost:1313/series/thank-you-to-.../</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/thank-you-to-.../</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hey Community!</title>
+      <link>http://localhost:1313/series/hey-community/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/series/hey-community/</guid>
       <description></description>
       
     </item>

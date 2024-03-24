@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Speed on opt-models</title>
+    <link>http://localhost:1313/tags/speed/</link>
+    <description>Recent content in Speed on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/speed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 02:02 Optimization Toolchain: Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
+      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:06 LEGO® Opt App: Group SETS</title>
+      <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-group-sets/</guid>
+      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-group-sets/feature-05-06-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
+      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:11 LEGO® Opt App: Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-solver-tuning/</guid>
+      <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:16 LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
+      <link>http://localhost:1313/compendium/lego-app-hardware/</link>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-hardware/</guid>
+      <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-hardware/feature-05-16-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:18 LEGO® Opt App: RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</guid>
+      <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/feature-05-18-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 07:-- Speeding Opt Apps</title>
+      <link>http://localhost:1313/compendium/speeding-opt-apps/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/speeding-opt-apps/</guid>
+      <description>A methodical walk across the optimization toolchain and down through the underlying stack/OS in search of performance bottlenecks and their remedies.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/speeding-opt-apps/feature-07-XX-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Multi-Objective Optimization on opt-models</title>
+    <link>http://localhost:1313/tags/multi-objective-optimization/</link>
+    <description>Recent content in Multi-Objective Optimization on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Tue, 20 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/multi-objective-optimization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 06:04 Practical Opt Theory: Optimization Methods</title>
+      <link>http://localhost:1313/compendium/theory-optimization-methods/</link>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-optimization-methods/</guid>
+      <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-methods/feature-06-04-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

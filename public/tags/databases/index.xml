@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databases on opt-models</title>
+    <link>http://localhost:1313/tags/databases/</link>
+    <description>Recent content in Databases on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 02:03 Optimization Toolchain: Data Sources</title>
+      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HiGHS on opt-models</title>
+    <link>http://localhost:1313/tags/highs/</link>
+    <description>Recent content in HiGHS on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/highs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Optimization Toolchain: Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>LEGO® Opt App: Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-solver-tuning/</guid>
+      <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

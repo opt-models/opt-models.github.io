@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GraphXR on opt-models</title>
+    <link>http://localhost:1313/tags/graphxr/</link>
+    <description>Recent content in GraphXR on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Wed, 13 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/graphxr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 04: Dev Creature Comforts</title>
+      <link>http://localhost:1313/compendium/dev-creature-comforts/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/dev-creature-comforts/</guid>
+      <description>Extolling the value of tools like Git, fast code/text editors, exploratory data analysis (EDA) tools like GraphXR, whiteboarding tools like Whimsical, containerization, model/data separation and friendly syntax and naming conventions.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/dev-creature-comforts/feature-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:03 LEGO® Opt App: Unbox the Data!</title>
+      <link>http://localhost:1313/compendium/lego-app-data-unboxing/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-data-unboxing/</guid>
+      <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-data-unboxing/feature-05-03-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

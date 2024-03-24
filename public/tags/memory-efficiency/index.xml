@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Memory Efficiency on opt-models</title>
+    <link>http://localhost:1313/tags/memory-efficiency/</link>
+    <description>Recent content in Memory Efficiency on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Tue, 05 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/memory-efficiency/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-write-the-model/</guid>
+      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-write-the-model/feature-05-08-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
+      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Part 07:-- Speeding Opt Apps</title>
+      <link>http://localhost:1313/compendium/speeding-opt-apps/</link>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/speeding-opt-apps/</guid>
+      <description>A methodical walk across the optimization toolchain and down through the underlying stack/OS in search of performance bottlenecks and their remedies.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/speeding-opt-apps/feature-07-XX-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

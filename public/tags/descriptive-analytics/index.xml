@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Descriptive Analytics on opt-models</title>
+    <link>http://localhost:1313/tags/descriptive-analytics/</link>
+    <description>Recent content in Descriptive Analytics on opt-models</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Martin Laskowski</copyright>
+    <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/descriptive-analytics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Part 06:01 Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
+      <link>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</link>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</guid>
+      <description>My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
+    </item>
+    
+  </channel>
+</rss>

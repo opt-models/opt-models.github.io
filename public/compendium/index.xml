@@ -7,394 +7,394 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 00:01 Welcome to the Optimization Impostors&#39; Compendium</title>
+      <title>Welcome to the Optimization Impostors&#39; Compendium</title>
       <link>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</guid>
-      <description>Describing the Compendium, its intended audience, its focus on computation speed and a code-first approach to building optimization models, its author, me (Martin Laskowski) and my motivations for creating this resource.</description>
+      <description>Introducing the Compendium, its intended audience, its two main focuses - a code-first approach to building optimization models and increasing the speed of optimization computation - me (Martin Laskowski) and my motivations for creating this resource.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 00:02 What&#39;s inside...</title>
+      <title>What&#39;s inside...</title>
       <link>http://localhost:1313/compendium/welcome-overview/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-overview/</guid>
-      <description>An overview of the contents and release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
+      <description>An overview of the contents and the release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-overview/feature-00-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 00:03 Talk on Maven</title>
+      <title>Talk on Maven</title>
       <link>http://localhost:1313/compendium/welcome-maven/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/welcome-maven/</guid>
-      <description>You are invited to discuss the topics covered in the Compendium on the new Maven social media platform, which is structured around a graph of topical connections - the &amp;ldquo;interest graph&amp;rdquo; - rather than the typical &amp;ldquo;friend/social graphs&amp;rdquo; of other networks.</description>
+      <description>Discuss the topics covered here on Maven: a social media platform structured around an &amp;ldquo;interest graph&amp;rdquo; rather than a &amp;ldquo;friend/social graph&amp;rdquo;. Maven feels good to me, like a glimpse of a possible shift in online culture from our current limbic-system hacking reality to something healthier and promoting of genuine serendipity.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 01: The magical nature of Optimization Programming</title>
+      <title>The magical nature of Optimization Programming</title>
       <link>http://localhost:1313/compendium/magical-optimization-programming/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/magical-optimization-programming/</guid>
-      <description></description>
+      <description>Optimization programming is an extremely declarative paradigm which is beyond fantastic and also exactly why many newcomers get into trouble.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/magical-optimization-programming/feature-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 02:01 Optimization Toolchain: Major Component Overview</title>
+      <title>Optimization Toolchain: Major Component Overview</title>
       <link>http://localhost:1313/compendium/toolchain-components/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/toolchain-components/</guid>
-      <description></description>
+      <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 02:02 Optimization Toolchain: Model &#43; Solver</title>
+      <title>Optimization Toolchain: Model &#43; Solver</title>
       <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
-      <description></description>
+      <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 02:03 Optimization Toolchain: Data Sources</title>
+      <title>Optimization Toolchain: Data Sources</title>
       <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
-      <description></description>
+      <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 02:04 Optimization Toolchain: User Interfaces</title>
+      <title>Optimization Toolchain: User Interfaces</title>
       <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
-      <description></description>
+      <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 02:05 Optimization Toolchain: &#39;Glue&#39; Languages</title>
+      <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
       <link>http://localhost:1313/compendium/toolchain-glue-languages/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/toolchain-glue-languages/</guid>
-      <description></description>
+      <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-glue-languages/feature-02-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 03: The five parts of an Optimization Model</title>
+      <title>The five parts of an Optimization Model</title>
       <link>http://localhost:1313/compendium/optimization-model-parts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/optimization-model-parts/</guid>
-      <description></description>
+      <description>An unpacking of the five major components of an optimization model: SETS, parameters, Variables, Objective and Constraints.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-model-parts/feature-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 04: Dev Creature Comforts</title>
+      <title>Dev Creature Comforts</title>
       <link>http://localhost:1313/compendium/dev-creature-comforts/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/dev-creature-comforts/</guid>
-      <description></description>
+      <description>Extolling the value of tools like Git, fast code/text editors, exploratory data analysis (EDA) tools like GraphXR, whiteboarding tools like Whimsical, containerization, model/data separation and friendly syntax and naming conventions.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/dev-creature-comforts/feature-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:01 LEGO® Opt App: The Problem Description</title>
+      <title>LEGO® Opt App: The Problem Description</title>
       <link>http://localhost:1313/compendium/lego-app-problem-description/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-problem-description/</guid>
-      <description></description>
+      <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-problem-description/feature-05-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:02 LEGO® Opt App: Plan the Buildout</title>
+      <title>LEGO® Opt App: Plan the Buildout</title>
       <link>http://localhost:1313/compendium/lego-app-buildout-plan/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-buildout-plan/</guid>
-      <description></description>
+      <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-buildout-plan/feature-05-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:03 LEGO® Opt App: Unbox the Data!</title>
+      <title>LEGO® Opt App: Unbox the Data!</title>
       <link>http://localhost:1313/compendium/lego-app-data-unboxing/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-data-unboxing/</guid>
-      <description></description>
+      <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-data-unboxing/feature-05-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:04 LEGO® Opt App: Sketch the Model</title>
+      <title>LEGO® Opt App: Sketch the Model</title>
       <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-sketch-the-model/</guid>
-      <description></description>
+      <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <title>LEGO® Opt App: Connect Model to Data</title>
       <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
-      <description></description>
+      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:06 LEGO® Opt App: Group SETS</title>
+      <title>LEGO® Opt App: Group SETS</title>
       <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-group-sets/</guid>
-      <description></description>
+      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-group-sets/feature-05-06-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:07 LEGO® Opt App: Add a Text-based User Interface</title>
+      <title>LEGO® Opt App: Add a Text-based User Interface</title>
       <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-text-user-interface/</guid>
-      <description></description>
+      <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <title>LEGO® Opt App: Write the Model</title>
       <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-write-the-model/</guid>
-      <description></description>
+      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-write-the-model/feature-05-08-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <title>LEGO® Opt App: Shrink the Problem</title>
       <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
-      <description></description>
+      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:10 LEGO® Opt App: Make on-the-fly model mods</title>
+      <title>LEGO® Opt App: Make on-the-fly model mods</title>
       <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</guid>
-      <description></description>
+      <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:11 LEGO® Opt App: Tune the Solver!!!</title>
+      <title>LEGO® Opt App: Tune the Solver!!!</title>
       <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-solver-tuning/</guid>
-      <description></description>
+      <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:12 LEGO® Opt App: Switch our glue land to Python</title>
+      <title>LEGO® Opt App: Switch our glue land to Python</title>
       <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</guid>
-      <description></description>
+      <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:13 LEGO® Opt App: Add a Streamlit User Interface</title>
+      <title>LEGO® Opt App: Add a Streamlit User Interface</title>
       <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</guid>
-      <description></description>
+      <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
       <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
-      <description></description>
+      <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:15 LEGO® Opt App: Let&#39;s Containerize!</title>
+      <title>LEGO® Opt App: Let&#39;s Containerize!</title>
       <link>http://localhost:1313/compendium/lego-app-containerization/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-containerization/</guid>
-      <description></description>
+      <description>We are almost done with our Multi-Build optimization app! Now is a good time to containerize our app so that it can easily be deployed to various environments and even scaled across multiple heterogeneous environments at once.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-containerization/feature-05-15-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:16 LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
+      <title>LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
       <link>http://localhost:1313/compendium/lego-app-hardware/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-hardware/</guid>
-      <description></description>
+      <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-hardware/feature-05-16-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:17 LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
+      <title>LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
       <link>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</guid>
-      <description></description>
+      <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 05:18 LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>LEGO® Opt App: RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</link>
+      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <guid>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</guid>
+      <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 06:01 Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
+      <title>Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
       <link>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</guid>
-      <description></description>
+      <description>My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 06:02 Practical Opt Theory: Optimization Problem Types</title>
+      <title>Practical Opt Theory: Optimization Problem Types</title>
       <link>http://localhost:1313/compendium/theory-optimization-problem-types/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/theory-optimization-problem-types/</guid>
-      <description></description>
+      <description>A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 06:03 Practical Opt Theory: Optimization Problem Hardness</title>
+      <title>Practical Opt Theory: Optimization Problem Hardness</title>
       <link>http://localhost:1313/compendium/theory-optimization-problem-hardness/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/theory-optimization-problem-hardness/</guid>
-      <description></description>
+      <description>Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 06:04 Practical Opt Theory: Optimization Methods</title>
+      <title>Practical Opt Theory: Optimization Methods</title>
       <link>http://localhost:1313/compendium/theory-optimization-methods/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/theory-optimization-methods/</guid>
-      <description></description>
+      <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-methods/feature-06-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 06:05 Practical Opt Theory: The Myth of the Objective</title>
+      <title>Practical Opt Theory: The Myth of the Objective</title>
       <link>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</guid>
-      <description></description>
+      <description>An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &amp;lsquo;Why Greatness Cannot Be Planned&amp;rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 07:-- Speeding Opt Apps</title>
+      <title>Speeding Opt Apps</title>
       <link>http://localhost:1313/compendium/speeding-opt-apps/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/speeding-opt-apps/</guid>
-      <description></description>
+      <description>A methodical walk across the optimization toolchain and down through the underlying stack/OS in search of performance bottlenecks and their remedies.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/speeding-opt-apps/feature-07-XX-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 08:-- Predictions: Opt Tools, Skills and Apps beyond 2024</title>
+      <title>Predictions: Opt Tools, Skills and Apps beyond 2024</title>
       <link>http://localhost:1313/compendium/optimization-markets-beyond-2024/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/optimization-markets-beyond-2024/</guid>
-      <description></description>
+      <description>My perspective on the markets for optimization products, services and skills in 2024 and beyond. I address developers, students, tool buyers and vendors in light of the current AI explosion.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/optimization-markets-beyond-2024/feature-08-XX-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 09: Opt ❤️ AI</title>
+      <title>Optimization ❤️ AI</title>
       <link>http://localhost:1313/compendium/opt-loves-ai/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 25 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/opt-loves-ai/</guid>
-      <description></description>
+      <description>A show-and-tell discussion of generative AI&amp;rsquo;s current value in writing optimization models, data integrations, tests, UIs. Also some discussion about readability of natural vs AML language for humans.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/opt-loves-ai/feature-09-XX-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 10: Thank you to...</title>
+      <title>Thank you to...</title>
       <link>http://localhost:1313/compendium/thank-you/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/thank-you/</guid>
-      <description></description>
+      <description>Thanks to the folks without whom this would not happen: Seth Godin, Steve Walters, The Black Crowes, Martha Wells and Murderbot, Techno Tim, Christian Lempa, Veronica Explains, Lawrence Systems, Jeff Delaney and Fireship.io, Nuno Coração and Blowfish, the Rebrickable Team, Rebecca and you.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/thank-you/feature-10-XX-coming-soon.png" />
     </item>
     
     <item>
-      <title>Part 11: Hey, Community!</title>
+      <title>Hey, Community!</title>
       <link>http://localhost:1313/compendium/hey-community/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/hey-community/</guid>
-      <description></description>
+      <description>A call to the optimization community to build valuable resources together: models and integrations, open source solvers, a pro-bono project marketplace, tool-agnostic discussion forum(s).</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/hey-community/feature-11-XX-coming-soon.png" />
     </item>
     
