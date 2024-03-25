@@ -10,12 +10,12 @@
     <lastBuildDate>Thu, 22 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/combinatorial-optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical Opt Theory: Optimization Problem Types</title>
-      <link>http://localhost:1313/compendium/theory-optimization-problem-types/</link>
+      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-optimization-problem-types/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</guid>
       <description>A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
     </item>
     
   </channel>

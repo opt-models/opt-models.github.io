@@ -7,31 +7,11 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Community</title>
-      <link>http://localhost:1313/tags/community/</link>
-      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/community/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Gratitude</title>
-      <link>http://localhost:1313/tags/gratitude/</link>
-      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/gratitude/</guid>
-      <description></description>
-      
-    </item>
-    
+    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Summary</title>
       <link>http://localhost:1313/tags/summary/</link>
-      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/summary/</guid>
       <description></description>
@@ -634,6 +614,26 @@
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/predictions/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://localhost:1313/tags/community/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/community/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gratitude</title>
+      <link>http://localhost:1313/tags/gratitude/</link>
+      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gratitude/</guid>
       <description></description>
       
     </item>

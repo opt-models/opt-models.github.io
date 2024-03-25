@@ -10,12 +10,12 @@
     <lastBuildDate>Wed, 21 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/problem-hardness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical Opt Theory: Optimization Problem Hardness</title>
-      <link>http://localhost:1313/compendium/theory-optimization-problem-hardness/</link>
+      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-optimization-problem-hardness/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</guid>
       <description>Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
     </item>
     
     <item>

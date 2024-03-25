@@ -10,52 +10,52 @@
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/the-optimization-toolchain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimization Toolchain: Major Component Overview</title>
-      <link>http://localhost:1313/compendium/toolchain-components/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-components/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-components/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-components/</guid>
       <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-components/feature-02-01-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
       <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: Data Sources</title>
-      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</guid>
       <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-data-sources/feature-02-03-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: User Interfaces</title>
-      <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</guid>
       <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
-      <link>http://localhost:1313/compendium/toolchain-glue-languages/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-glue-languages/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</guid>
       <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-glue-languages/feature-02-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-glue-languages/feature-02-05-coming-soon.png" />
     </item>
     
   </channel>

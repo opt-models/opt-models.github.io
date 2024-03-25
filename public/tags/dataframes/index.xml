@@ -10,12 +10,12 @@
     <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dataframes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimization Toolchain: Data Sources</title>
-      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</guid>
       <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-data-sources/feature-02-03-coming-soon.png" />
     </item>
     
   </channel>

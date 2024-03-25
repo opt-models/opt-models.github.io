@@ -10,12 +10,12 @@
     <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/app-handover/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
   </channel>

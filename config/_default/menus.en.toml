@@ -1,14 +1,78 @@
 [[main]]
-name = "compendium"
-pageRef = "compendium"
+name = "The Compendium"
+pageRef = "The Compendium"
 weight = 1
 
 [[main]]
 name = "code"
 pre = "github"
 url = "https://github.com/orgs/opt-models/repositories"
-identifier = "dTITSY7hX1"
+identifier = "dTITSY7hX1"   
 weight = 2
+
+
+[[main]]
+  name = "Welcome!"
+  parent = "The Compendium"
+  pageRef = "/"
+  weight = 1
+[[main]]
+  name = "Magical Opt Prog"
+  parent = "The Compendium"
+  pageRef = "compendium/magical-optimization-programming"
+  weight = 2
+[[main]]
+  name = "Opt Toolchain"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 3
+[[main]]
+  name = "Five Opt Model Parts"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 4
+[[main]]
+  name = "Dev Creature Comforts"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 5
+[[main]]
+  name = "LEGO® Opt App"
+  parent = "The Compendium"
+  pageRef = "compendium/lego"
+  weight = 6
+[[main]]
+  name = "Practical Opt Theory"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 7
+[[main]]
+  name = "Speeding Opt Apps"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 8
+[[main]]
+  name = "Opt Market Predictions"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 9
+[[main]]
+  name = "Opt ❤️ AI"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 10
+[[main]]
+  name = "Thank you to ..."
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 11
+[[main]]
+  name = "Hey, Community!"
+  parent = "The Compendium"
+  pageRef = ""
+  weight = 12
+
+
 
 # [[main]]
 # name = "community"

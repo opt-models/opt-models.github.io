@@ -10,12 +10,12 @@
     <lastBuildDate>Fri, 23 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/prescriptive-analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
-      <link>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</link>
+      <link>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</guid>
       <description>My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
     </item>
     
   </channel>

@@ -10,12 +10,12 @@
     <lastBuildDate>Sun, 03 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/model-assembly-at-runtime/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LEGO® Opt App: Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</guid>
       <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
   </channel>

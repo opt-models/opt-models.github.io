@@ -10,12 +10,12 @@
     <lastBuildDate>Thu, 21 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Talk on Maven</title>
-      <link>http://localhost:1313/compendium/welcome-maven/</link>
+      <link>http://localhost:1313/compendium/welcome/welcome-maven/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/welcome-maven/</guid>
+      <guid>http://localhost:1313/compendium/welcome/welcome-maven/</guid>
       <description>Discuss the topics covered here on Maven: a social media platform structured around an &amp;ldquo;interest graph&amp;rdquo; rather than a &amp;ldquo;friend/social graph&amp;rdquo;. Maven feels good to me, like a glimpse of a possible shift in online culture from our current limbic-system hacking reality to something healthier and promoting of genuine serendipity.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-maven/feature-00-03-coming-soon.png" />
     </item>
     
   </channel>

@@ -21,12 +21,12 @@ For six years at AMPL I had the tremendous luck to learn from seasoned practitio
     
     <item>
       <title>Welcome to the Optimization Impostors&#39; Compendium</title>
-      <link>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</link>
+      <link>http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/</guid>
+      <guid>http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/</guid>
       <description>Introducing the Compendium, its intended audience, its two main focuses - a code-first approach to building optimization models and increasing the speed of optimization computation - me (Martin Laskowski) and my motivations for creating this resource.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
     </item>
     
     <item>
@@ -42,22 +42,22 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     
     <item>
       <title>What&#39;s inside...</title>
-      <link>http://localhost:1313/compendium/welcome-overview/</link>
+      <link>http://localhost:1313/compendium/welcome/welcome-overview/</link>
       <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/welcome-overview/</guid>
+      <guid>http://localhost:1313/compendium/welcome/welcome-overview/</guid>
       <description>An overview of the contents and the release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-overview/feature-00-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-overview/feature-00-02-coming-soon.png" />
     </item>
     
     <item>
       <title>Talk on Maven</title>
-      <link>http://localhost:1313/compendium/welcome-maven/</link>
+      <link>http://localhost:1313/compendium/welcome/welcome-maven/</link>
       <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/welcome-maven/</guid>
+      <guid>http://localhost:1313/compendium/welcome/welcome-maven/</guid>
       <description>Discuss the topics covered here on Maven: a social media platform structured around an &amp;ldquo;interest graph&amp;rdquo; rather than a &amp;ldquo;friend/social graph&amp;rdquo;. Maven feels good to me, like a glimpse of a possible shift in online culture from our current limbic-system hacking reality to something healthier and promoting of genuine serendipity.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome-maven/feature-00-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-maven/feature-00-03-coming-soon.png" />
     </item>
     
     <item>
@@ -72,52 +72,52 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     
     <item>
       <title>Optimization Toolchain: Major Component Overview</title>
-      <link>http://localhost:1313/compendium/toolchain-components/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-components/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-components/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-components/</guid>
       <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-components/feature-02-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-components/feature-02-01-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
       <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: Data Sources</title>
-      <link>http://localhost:1313/compendium/toolchain-data-sources/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-data-sources/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</guid>
       <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-data-sources/feature-02-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-data-sources/feature-02-03-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: User Interfaces</title>
-      <link>http://localhost:1313/compendium/toolchain-user-interfaces/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-user-interfaces/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</guid>
       <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
     </item>
     
     <item>
       <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
-      <link>http://localhost:1313/compendium/toolchain-glue-languages/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-glue-languages/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</guid>
       <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-glue-languages/feature-02-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-glue-languages/feature-02-05-coming-soon.png" />
     </item>
     
     <item>
@@ -142,232 +142,232 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     
     <item>
       <title>LEGO® Opt App: The Problem Description</title>
-      <link>http://localhost:1313/compendium/lego-app-problem-description/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-problem-description/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-problem-description/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-problem-description/</guid>
       <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-problem-description/feature-05-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-problem-description/feature-05-01-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Plan the Buildout</title>
-      <link>http://localhost:1313/compendium/lego-app-buildout-plan/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-buildout-plan/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-buildout-plan/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-buildout-plan/</guid>
       <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-buildout-plan/feature-05-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-buildout-plan/feature-05-02-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Unbox the Data!</title>
-      <link>http://localhost:1313/compendium/lego-app-data-unboxing/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-data-unboxing/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-data-unboxing/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-data-unboxing/</guid>
       <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-data-unboxing/feature-05-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-data-unboxing/feature-05-03-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Sketch the Model</title>
-      <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-sketch-the-model/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-sketch-the-model/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-sketch-the-model/</guid>
       <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</guid>
       <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Group SETS</title>
-      <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-group-sets/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-group-sets/</guid>
       <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-group-sets/feature-05-06-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-group-sets/feature-05-06-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Add a Text-based User Interface</title>
-      <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-text-user-interface/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</guid>
       <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Write the Model</title>
-      <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-write-the-model/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-write-the-model/</guid>
       <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-write-the-model/feature-05-08-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-write-the-model/feature-05-08-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Shrink the Problem</title>
-      <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</guid>
       <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</guid>
       <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Tune the Solver!!!</title>
-      <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-solver-tuning/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</guid>
       <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Switch our glue land to Python</title>
-      <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</guid>
       <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Add a Streamlit User Interface</title>
-      <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/</guid>
       <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
-      <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</guid>
       <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Let&#39;s Containerize!</title>
-      <link>http://localhost:1313/compendium/lego-app-containerization/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-containerization/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-containerization/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-containerization/</guid>
       <description>We are almost done with our Multi-Build optimization app! Now is a good time to containerize our app so that it can easily be deployed to various environments and even scaled across multiple heterogeneous environments at once.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-containerization/feature-05-15-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-containerization/feature-05-15-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
-      <link>http://localhost:1313/compendium/lego-app-hardware/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-hardware/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-hardware/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-hardware/</guid>
       <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-hardware/feature-05-16-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-hardware/feature-05-16-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
-      <link>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</guid>
       <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
     <item>
       <title>Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
-      <link>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</link>
+      <link>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</guid>
       <description>My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
     </item>
     
     <item>
       <title>Practical Opt Theory: Optimization Problem Types</title>
-      <link>http://localhost:1313/compendium/theory-optimization-problem-types/</link>
+      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-optimization-problem-types/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</guid>
       <description>A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
     </item>
     
     <item>
       <title>Practical Opt Theory: Optimization Problem Hardness</title>
-      <link>http://localhost:1313/compendium/theory-optimization-problem-hardness/</link>
+      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</link>
       <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-optimization-problem-hardness/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</guid>
       <description>Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
     </item>
     
     <item>
       <title>Practical Opt Theory: Optimization Methods</title>
-      <link>http://localhost:1313/compendium/theory-optimization-methods/</link>
+      <link>http://localhost:1313/compendium/theory/theory-optimization-methods/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-optimization-methods/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-optimization-methods/</guid>
       <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-optimization-methods/feature-06-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-methods/feature-06-04-coming-soon.png" />
     </item>
     
     <item>
       <title>Practical Opt Theory: The Myth of the Objective</title>
-      <link>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</link>
+      <link>http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/</link>
       <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory-the-myth-of-the-objective/</guid>
+      <guid>http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/</guid>
       <description>An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &amp;lsquo;Why Greatness Cannot Be Planned&amp;rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
     </item>
     
     <item>

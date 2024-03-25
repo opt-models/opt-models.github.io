@@ -10,92 +10,92 @@
     <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ampl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
       <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-connect-model-to-data/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</guid>
       <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Group SETS</title>
-      <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-group-sets/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-group-sets/</guid>
       <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-group-sets/feature-05-06-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-group-sets/feature-05-06-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Add a Text-based User Interface</title>
-      <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-text-user-interface/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</guid>
       <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Write the Model</title>
-      <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-write-the-model/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-write-the-model/</guid>
       <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-write-the-model/feature-05-08-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-write-the-model/feature-05-08-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Shrink the Problem</title>
-      <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-shrink-the-problem/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</guid>
       <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</guid>
       <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Switch our glue land to Python</title>
-      <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</guid>
       <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
     </item>
     
     <item>
       <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
-      <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
+      <link>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-dynamic-solving/</guid>
+      <guid>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</guid>
       <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
     </item>
     
   </channel>
