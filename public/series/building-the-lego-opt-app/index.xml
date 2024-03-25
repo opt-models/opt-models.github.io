@@ -9,7 +9,7 @@
     <copyright>© 2024 Martin Laskowski</copyright>
     <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/building-the-lego-opt-app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 05:01 LEGO® Opt App: The Problem Description</title>
+      <title>LEGO® Opt App: The Problem Description</title>
       <link>http://localhost:1313/compendium/lego-app-problem-description/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@
     </item>
     
     <item>
-      <title>Part 05:02 LEGO® Opt App: Plan the Buildout</title>
+      <title>LEGO® Opt App: Plan the Buildout</title>
       <link>http://localhost:1313/compendium/lego-app-buildout-plan/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>Part 05:03 LEGO® Opt App: Unbox the Data!</title>
+      <title>LEGO® Opt App: Unbox the Data!</title>
       <link>http://localhost:1313/compendium/lego-app-data-unboxing/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Part 05:04 LEGO® Opt App: Sketch the Model</title>
+      <title>LEGO® Opt App: Sketch the Model</title>
       <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -49,7 +49,7 @@
     </item>
     
     <item>
-      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <title>LEGO® Opt App: Connect Model to Data</title>
       <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -59,7 +59,7 @@
     </item>
     
     <item>
-      <title>Part 05:06 LEGO® Opt App: Group SETS</title>
+      <title>LEGO® Opt App: Group SETS</title>
       <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -69,7 +69,7 @@
     </item>
     
     <item>
-      <title>Part 05:07 LEGO® Opt App: Add a Text-based User Interface</title>
+      <title>LEGO® Opt App: Add a Text-based User Interface</title>
       <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -79,7 +79,7 @@
     </item>
     
     <item>
-      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <title>LEGO® Opt App: Write the Model</title>
       <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -89,7 +89,7 @@
     </item>
     
     <item>
-      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <title>LEGO® Opt App: Shrink the Problem</title>
       <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -99,7 +99,7 @@
     </item>
     
     <item>
-      <title>Part 05:10 LEGO® Opt App: Make on-the-fly model mods</title>
+      <title>LEGO® Opt App: Make on-the-fly model mods</title>
       <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -109,7 +109,7 @@
     </item>
     
     <item>
-      <title>Part 05:11 LEGO® Opt App: Tune the Solver!!!</title>
+      <title>LEGO® Opt App: Tune the Solver!!!</title>
       <link>http://localhost:1313/compendium/lego-app-solver-tuning/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -119,7 +119,7 @@
     </item>
     
     <item>
-      <title>Part 05:12 LEGO® Opt App: Switch our glue land to Python</title>
+      <title>LEGO® Opt App: Switch our glue land to Python</title>
       <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -129,7 +129,7 @@
     </item>
     
     <item>
-      <title>Part 05:13 LEGO® Opt App: Add a Streamlit User Interface</title>
+      <title>LEGO® Opt App: Add a Streamlit User Interface</title>
       <link>http://localhost:1313/compendium/lego-app-streamlit-user-interface/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
@@ -139,7 +139,7 @@
     </item>
     
     <item>
-      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
       <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       
@@ -149,7 +149,7 @@
     </item>
     
     <item>
-      <title>Part 05:15 LEGO® Opt App: Let&#39;s Containerize!</title>
+      <title>LEGO® Opt App: Let&#39;s Containerize!</title>
       <link>http://localhost:1313/compendium/lego-app-containerization/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
@@ -159,7 +159,7 @@
     </item>
     
     <item>
-      <title>Part 05:16 LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
+      <title>LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
       <link>http://localhost:1313/compendium/lego-app-hardware/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
@@ -169,13 +169,13 @@
     </item>
     
     <item>
-      <title>Part 05:18 LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</link>
+      <title>LEGO® Opt App: RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/</guid>
+      <guid>http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recapt-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
   </channel>

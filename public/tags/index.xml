@@ -9,11 +9,21 @@
     <copyright>© 2024 Martin Laskowski</copyright>
     <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/tags/about-me/</link>
+      <title>Community</title>
+      <link>http://localhost:1313/tags/community/</link>
       <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/about-me/</guid>
+      <guid>http://localhost:1313/tags/community/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gratitude</title>
+      <link>http://localhost:1313/tags/gratitude/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gratitude/</guid>
       <description></description>
       
     </item>
@@ -21,7 +31,7 @@
     <item>
       <title>Summary</title>
       <link>http://localhost:1313/tags/summary/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/summary/</guid>
       <description></description>
@@ -104,6 +114,66 @@
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/algebraic-modeling-languages/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AMPL</title>
+      <link>http://localhost:1313/tags/ampl/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ampl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CPLEX</title>
+      <link>http://localhost:1313/tags/cplex/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/cplex/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GAMS</title>
+      <link>http://localhost:1313/tags/gams/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gams/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Gurobi</title>
+      <link>http://localhost:1313/tags/gurobi/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/gurobi/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>HiGHS</title>
+      <link>http://localhost:1313/tags/highs/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/highs/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>PYOMO</title>
+      <link>http://localhost:1313/tags/pyomo/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/pyomo/</guid>
       <description></description>
       
     </item>
@@ -309,16 +379,6 @@
     </item>
     
     <item>
-      <title>AMPL</title>
-      <link>http://localhost:1313/tags/ampl/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ampl/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>SETS</title>
       <link>http://localhost:1313/tags/sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
@@ -364,16 +424,6 @@
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/model-assembly-at-runtime/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>HiGHS</title>
-      <link>http://localhost:1313/tags/highs/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/highs/</guid>
       <description></description>
       
     </item>
@@ -584,26 +634,6 @@
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/predictions/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>http://localhost:1313/tags/community/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/community/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Gratitude</title>
-      <link>http://localhost:1313/tags/gratitude/</link>
-      <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/gratitude/</guid>
       <description></description>
       
     </item>

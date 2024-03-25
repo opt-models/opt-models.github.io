@@ -52,7 +52,7 @@ showDraftLabel = true
 seriesOpened = false
 showHeadingAnchors = true
 showPagination = true
-invertPagination = false
+invertPagination = true
 showReadingTime = false
 showTableOfContents = true
 showAuthorsBadges = false
@@ -62,19 +62,19 @@ sharingLinks = [ "linkedin", "twitter", "reddit", "pinterest", "facebook", "emai
 
 [list]
 showHero = false
-heroStyle = "big" # valid options: basic, big, background, thumbAndBackground
+heroStyle = "basic" # valid options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = true
-showBreadcrumbs = false
+showBreadcrumbs = true
 showSummary = true
 showViews = false
 showLikes = false
-showTableOfContents = false
-showCards = false
+showTableOfContents = true
+showCards = true
 groupByYear = false
 cardView = true
 cardViewScreenWidth = false
-constrainItemsWidth = false
+constrainItemsWidth = true
 
 [sitemap]
 excludedKinds = [ "taxonomy", "term" ]

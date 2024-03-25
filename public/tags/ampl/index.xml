@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Martin Laskowski</copyright>
-    <lastBuildDate>Fri, 08 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ampl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ampl/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 05:05 LEGO® Opt App: Connect Model to Data</title>
+      <title>Optimization Toolchain: Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain-model-solver/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/toolchain-model-solver/</guid>
+      <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain-model-solver/feature-02-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>LEGO® Opt App: Connect Model to Data</title>
       <link>http://localhost:1313/compendium/lego-app-connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -19,7 +29,7 @@
     </item>
     
     <item>
-      <title>Part 05:06 LEGO® Opt App: Group SETS</title>
+      <title>LEGO® Opt App: Group SETS</title>
       <link>http://localhost:1313/compendium/lego-app-group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -29,7 +39,7 @@
     </item>
     
     <item>
-      <title>Part 05:07 LEGO® Opt App: Add a Text-based User Interface</title>
+      <title>LEGO® Opt App: Add a Text-based User Interface</title>
       <link>http://localhost:1313/compendium/lego-app-text-user-interface/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -39,7 +49,7 @@
     </item>
     
     <item>
-      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <title>LEGO® Opt App: Write the Model</title>
       <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -49,7 +59,7 @@
     </item>
     
     <item>
-      <title>Part 05:09 LEGO® Opt App: Shrink the Problem</title>
+      <title>LEGO® Opt App: Shrink the Problem</title>
       <link>http://localhost:1313/compendium/lego-app-shrink-the-problem/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -59,7 +69,7 @@
     </item>
     
     <item>
-      <title>Part 05:10 LEGO® Opt App: Make on-the-fly model mods</title>
+      <title>LEGO® Opt App: Make on-the-fly model mods</title>
       <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -69,7 +79,7 @@
     </item>
     
     <item>
-      <title>Part 05:12 LEGO® Opt App: Switch our glue land to Python</title>
+      <title>LEGO® Opt App: Switch our glue land to Python</title>
       <link>http://localhost:1313/compendium/lego-app-switch-glue-lang-to-python/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -79,7 +89,7 @@
     </item>
     
     <item>
-      <title>Part 05:14 LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
+      <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
       <link>http://localhost:1313/compendium/lego-app-dynamic-solving/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       

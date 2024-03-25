@@ -9,7 +9,7 @@
     <copyright>© 2024 Martin Laskowski</copyright>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/constraints/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Part 03: The five parts of an Optimization Model</title>
+      <title>The five parts of an Optimization Model</title>
       <link>http://localhost:1313/compendium/optimization-model-parts/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -19,7 +19,7 @@
     </item>
     
     <item>
-      <title>Part 05:04 LEGO® Opt App: Sketch the Model</title>
+      <title>LEGO® Opt App: Sketch the Model</title>
       <link>http://localhost:1313/compendium/lego-app-sketch-the-model/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -29,7 +29,7 @@
     </item>
     
     <item>
-      <title>Part 05:08 LEGO® Opt App: Write the Model</title>
+      <title>LEGO® Opt App: Write the Model</title>
       <link>http://localhost:1313/compendium/lego-app-write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -39,7 +39,7 @@
     </item>
     
     <item>
-      <title>Part 05:10 LEGO® Opt App: Make on-the-fly model mods</title>
+      <title>LEGO® Opt App: Make on-the-fly model mods</title>
       <link>http://localhost:1313/compendium/lego-app-on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       

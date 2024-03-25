@@ -13,3 +13,6 @@ series_order: 2
 ---
 
 An overview of the contents and the release structure of the Optimization Impostors' Compendium.
+
+{{< youtubeLite id="uTPpgz80o4s" label="some label!" >}}
+
