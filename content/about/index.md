@@ -1,9 +1,6 @@
 ---
 title: "About opt-models.org"
 description: "About the opt-models.org resource for people building fast mathematical optimization applications, and about the motivations of its author Martin Laskowski."
-
-editURL: "https://github.com/opt-models/opt-models.github.io/tree/main/content/about/index.md"
-
 date: "2024-03-24"
 lastmod: "2024-03-24"
 showBreadcrumbs: false

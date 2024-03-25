@@ -1,9 +1,6 @@
 ---
 title: "LEGO® Opt App: Tune the Solver!!!"
 description: "We lovingly explore the solving-time impact of various of our linear solver's (HiGHS) options, tuning the solver for significantly faster performance on our optimization problem."
-
-editURL: "https://github.com/opt-models/opt-models.github.io/tree/main/content/compendium/lego-app-solver-tuning/index.md"
-
 date: "2024-03-02"
 lastmod: "2024-03-23"
 

@@ -1,22 +1,17 @@
 ---
-title: "Building the LEGO® Opt App"
+title: "Building the LEGO® Opt App!"
 description: "The LEGO® Opt App video and code series overview page, listing all installments in the series and summarizing the project-based learnings the aim to convey."
-
-editURL: "https://github.com/opt-models/opt-models.github.io/tree/main/content/compendium/dev-creature-comforts/index.md"
-
 date: "2024-03-13"
 lastmod: "2024-03-25"
 ---
 
-We build a real-time optimization app for LEGO® enthusiasts that finds multiple sets buildable concurrently from a given user's part inventory.
+This app finds multiple LEGO sets buildable concurrently from a user's parts. Fast solutions come from the (great!) open source HiGHS solver, use of flat-file data imports, shrinking sets before solving, tweaking constraints, and more. 
 
-To give users solutions in real-time using the (great!) open source solver HiGHS, many performance bottlenecks needed love: laggy data import, shrinking problems prior to solving, constraint reformulations, and more. 
+## Thank You Rebrickable®!
 
-## Thank You Rebrickable.com
+... for sharing your [data and schema](https://rebrickable.com/downloads/) without which this project couldn't happen. You and your awesome, massive community at [Rebrickable.com](https://rebrickable.com/home/) rock! ❤️
 
-... for sharing your LEGO® [data and database schema](https://rebrickable.com/downloads/) with the world, without which this project would not be possible. You guys are absolute rockstars and everybody should check out the awesome community at [Rebrickable.com](https://rebrickable.com/home/) ❤️.
-
-## App Code Repo
+## Project Code Repo
 
 {{< github repo="opt-models/opt-lego" >}}
 
