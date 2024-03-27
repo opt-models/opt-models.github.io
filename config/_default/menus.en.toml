@@ -72,8 +72,6 @@ weight = 2
   pageRef = ""
   weight = 12
 
-
-
 # [[main]]
 # name = "community"
 # pageRef = "community"
@@ -98,8 +96,8 @@ pageRef = "about"
 identifier = "O3XtDfPKJz"
 weight = 6
 
-[[footer]]
-name = "privacy"
-pageRef = "privacy"
-identifier = "ekNullagKF"
-weight = 1
+# [[footer]]
+# name = "privacy"
+# pageRef = "privacy"
+# identifier = "ekNullagKF"
+# weight = 1

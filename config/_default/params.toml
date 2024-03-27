@@ -10,10 +10,14 @@ disableTextInHeader = true
 
 defaultBackgroundImage = "/img/background.svg"
 
+highlightCurrentMenuArea = true
+smartTOC = true
+smartTOCHideUnfocusedChildren = false
+
 mainSections = ["compendium"]
 
 [header]
-layout = "fixed" # valid options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
+layout = "fixed" # options: basic, fixed, fixed-fill, fixed-gradient, fixed-fill-blur
 
 [footer]
 showMenu = true
@@ -23,11 +27,11 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background"
-showRecent = false
-showRecentItems = 5
+layout = "background" # options: page, profile, hero, card, background, custom
+showRecent = true
+showRecentItems = 3
 showMoreLink = false
-showMoreLinkDest = "/posts"
+showMoreLinkDest = "/compendium"
 cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
@@ -40,7 +44,7 @@ showDateOnlyInArticle = false
 showDateUpdated = true
 showAuthor = true
 showHero = true
-heroStyle = "background" # options: basic, big, background, thumbAndBackground.
+heroStyle = "background" # options: basic, big, background, thumbAndBackground
 layoutBackgroundBlur = true
 layoutBackgroundHeaderSpace = false
 showBreadcrumbs = true
