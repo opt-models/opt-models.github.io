@@ -9,13 +9,13 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/general-languages/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</link>
+      <title>&#39;Glue&#39; Languages</title>
+      <link>http://localhost:1313/compendium/toolchain/glue-languages/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/glue-languages/</guid>
       <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-glue-languages/feature-02-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/glue-languages/feature-02-05-coming-soon.png" />
     </item>
     
   </channel>

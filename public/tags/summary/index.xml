@@ -7,35 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Fri, 22 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/summary/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>What&#39;s inside...</title>
-      <link>http://localhost:1313/compendium/welcome/welcome-overview/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/welcome/welcome-overview/</guid>
-      <description>An overview of the contents and the release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-overview/feature-00-02-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</link>
+      <title>RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</guid>
+      <guid>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
     <item>
-      <title>Practical Opt Theory: Optimization Problem Types</title>
-      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</link>
+      <title>Optimization Problem Types</title>
+      <link>http://localhost:1313/compendium/theory/optimization-problem-types/</link>
       <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</guid>
+      <guid>http://localhost:1313/compendium/theory/optimization-problem-types/</guid>
       <description>A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/optimization-problem-types/feature-06-02-coming-soon.png" />
     </item>
     
     <item>

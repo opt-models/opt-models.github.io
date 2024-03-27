@@ -3,10 +3,7 @@ title: "About opt-models.org"
 description: "About the opt-models.org resource for people building fast mathematical optimization applications, and about the motivations of its author Martin Laskowski."
 date: "2024-03-24"
 lastmod: "2024-03-24"
-showBreadcrumbs: false
-showEdit: false
 showHeadingAnchors: false
-showPagination: false
 showZenMode: false
 ---
 

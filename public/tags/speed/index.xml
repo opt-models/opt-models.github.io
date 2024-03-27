@@ -9,73 +9,83 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/speed/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
+      <title>Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain/model-solver/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/model-solver/</guid>
       <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</link>
+      <title>Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</guid>
+      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
       <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Group SETS</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-group-sets/</link>
+      <title>Group SETS</title>
+      <link>http://localhost:1313/compendium/lego/group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-group-sets/</guid>
+      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
       <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-group-sets/feature-05-06-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Shrink the Problem</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</link>
+      <title>Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego/shrink-the-problem/</link>
       <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</guid>
+      <guid>http://localhost:1313/compendium/lego/shrink-the-problem/</guid>
       <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/feature-05-09-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/shrink-the-problem/feature-05-09-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Tune the Solver!!!</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</link>
+      <title>Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego/solver-tuning/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</guid>
+      <guid>http://localhost:1313/compendium/lego/solver-tuning/</guid>
       <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/solver-tuning/feature-05-11-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-hardware/</link>
+      <title>Spec (rock!) the Hardware ;)</title>
+      <link>http://localhost:1313/compendium/lego/hardware/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-hardware/</guid>
+      <guid>http://localhost:1313/compendium/lego/hardware/</guid>
       <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-hardware/feature-05-16-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/hardware/feature-05-16-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: RECAP! ...and what happens next</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</link>
+      <title>Mistakes, lies &amp; abandoned features</title>
+      <link>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</guid>
+      <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>RECAP! ...and what happens next</title>
+      <link>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</link>
       <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</guid>
+      <guid>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/feature-05-18-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/recap-and-what-happens-next/feature-05-18-coming-soon.png" />
     </item>
     
     <item>

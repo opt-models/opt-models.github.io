@@ -9,23 +9,23 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Tue, 12 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/problem-description/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: The Problem Description</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-problem-description/</link>
+      <title>The Problem Description</title>
+      <link>http://localhost:1313/compendium/lego/problem-description/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-problem-description/</guid>
+      <guid>http://localhost:1313/compendium/lego/problem-description/</guid>
       <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-problem-description/feature-05-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/problem-description/feature-05-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</link>
+      <title>Mistakes, lies &amp; abandoned features</title>
+      <link>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</link>
       <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</guid>
+      <guid>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</guid>
       <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
     </item>
     
   </channel>

@@ -9,23 +9,23 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Wed, 28 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/dynamic-optimization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Go Dynamic! ...with iterative solving</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</link>
+      <title>Go Dynamic! ...with iterative solving</title>
+      <link>http://localhost:1313/compendium/lego/dynamic-solving/</link>
       <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</guid>
+      <guid>http://localhost:1313/compendium/lego/dynamic-solving/</guid>
       <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-dynamic-solving/feature-05-14-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/dynamic-solving/feature-05-14-coming-soon.png" />
     </item>
     
     <item>
-      <title>Practical Opt Theory: Optimization Methods</title>
-      <link>http://localhost:1313/compendium/theory/theory-optimization-methods/</link>
+      <title>Optimization Methods</title>
+      <link>http://localhost:1313/compendium/theory/optimization-methods/</link>
       <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/theory/theory-optimization-methods/</guid>
+      <guid>http://localhost:1313/compendium/theory/optimization-methods/</guid>
       <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-methods/feature-06-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/optimization-methods/feature-06-04-coming-soon.png" />
     </item>
     
   </channel>

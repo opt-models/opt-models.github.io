@@ -2,22 +2,47 @@
 
 ## List Pages and Navigation
 - [ ] make Home page (aka Welcome page for Compendium)
-  - [ ] add intro vids
-  - [ ] add select Compendium sections
-- [ ] make Compendium chapter pages
-  - [ ] fix series
-  - [x] add post descriptions
+  - [ ] add intro video
+  - [ ] add 'Discuss on Maven' segment
+    - [ ] render higher-res Maven logo
+  - [ ] add GitHub repo summary segment
+  - [ ] add Compendium chapters
+  - [x] add Recent Compendium sections
+- [ ] customize Compendium list pages
 - [ ] customize 404 page
-- [ ] make Tags page nice
+- [ ] customize Tags page
+- [ ] add unique backgrounds to each tag's 'term' page
+- [ ] add Community Page
+  - [ ] add wishlists
+  - [ ] add awesome Opt Humans and Groups lists
+- [ ] add awesome external resources page
 - [x] add About page
   - [x] add "contribute models!" CTA
 - [x] make Privacy Policy text shorter and clearer
 
 ## Articles
+- [ ] add Maven links per article
+- [x] add sharingLinks per article 
 - [x] customize front matter
-- [x] add sharingLinks per post 
-- [x] add tags
 - [x] group into series
+  - [x] fix series (caused by whitespace in declarations)
+- [x] add tags
+  - [x] fix tags (need enclosing double-quotes)
+- [x] shorten slugs
+- [x] retitle articles
+- [x] add unique backgrounds
+- [x] add descriptions
+
+## Bio
+- [ ] add my Maven bio link to About
+- [ ] add Maven Social links (ask Nuno how)
+- [ ] (maybe?) update my title
+
+## Assets
+- [x] make video thumbnails
+- [x] rerender video thumbnails (simplifying main section numbering scheme)
+- [ ] upload videos:
+  - [ ] 'Welcome to opt-models.org!'
 
 ## Search
 - [ ] add faceted search for models
@@ -26,7 +51,7 @@
   - [ ] add facet 3: solving hardness (via Big *O* Complexity?)
 
 ## Social and Sharing Links
-- [ ] add Maven (with custom icon) to:  
+- [ ] make Maven custom icon
 
 ## Aesthetics
 - [x] add feature images to Compendium chapters
@@ -46,10 +71,14 @@
 - [ ] test mobile and tablet views
 - [ ] test image compression
 - [ ] test load speeds
+- [ ] test edit links
+
+## Legal
+- [ ] add trademark notices for LEGO and Rebrickable
 
 ## SEO and Good Web Citizenship
 - [ ] add 'robots' via front matter and/or params, per https://developers.google.com/search/docs/advanced/robots/robots_meta_tag#directives
 
 ## Analytics and Cloud Services
-- [ ] add and test Fathom Analytics
-- [ ] integrate Firebase for showViews and showLikes (https://blowfish.page/docs/firebase-views/)
+- [ ] (maybe?) add and test Fathom Analytics
+- [ ] (maybe?) integrate Firebase for showViews and showLikes (https://blowfish.page/docs/firebase-views/)

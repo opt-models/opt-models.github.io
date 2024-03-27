@@ -9,7 +9,7 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Thu, 14 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/constraints/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>The five parts of an Optimization Model</title>
+      <title>The Five Parts of an Optimization Model</title>
       <link>http://localhost:1313/compendium/optimization-model-parts/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -19,33 +19,33 @@
     </item>
     
     <item>
-      <title>LEGO® Opt App: Sketch the Model</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-sketch-the-model/</link>
+      <title>Sketch the Model</title>
+      <link>http://localhost:1313/compendium/lego/sketch-the-model/</link>
       <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-sketch-the-model/</guid>
+      <guid>http://localhost:1313/compendium/lego/sketch-the-model/</guid>
       <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-sketch-the-model/feature-05-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/sketch-the-model/feature-05-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Write the Model</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-write-the-model/</link>
+      <title>Write the Model</title>
+      <link>http://localhost:1313/compendium/lego/write-the-model/</link>
       <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-write-the-model/</guid>
+      <guid>http://localhost:1313/compendium/lego/write-the-model/</guid>
       <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-write-the-model/feature-05-08-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/write-the-model/feature-05-08-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</link>
+      <title>Make on-the-fly model mods</title>
+      <link>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</link>
       <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</guid>
+      <guid>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</guid>
       <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
   </channel>

@@ -8,14 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Part 06: And Now ... Some Theory &middot; opt-models</title>
-  <meta name="title" content="Part 06: And Now ... Some Theory &middot; opt-models" />
+  <title>Practical Optimization Theory &middot; opt-models</title>
+  <meta name="title" content="Practical Optimization Theory &middot; opt-models" />
   
-  <meta name="description" content="A discussion on points of optimization theory affecting the speed and quality of computation of hard problems intended to calibrate newcomers&#39; expectations, and covering how solvers work, the types of optimization problems, measuring problem hardness and common optimization methods." />
+  <meta name="description" content="A treatise on the mathematical fundamentals of optimization most affecting practical implementations." />
   
   
   
   <link rel="canonical" href="http://localhost:1313/compendium/theory/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="/compendium/theory/index.xml" title="opt-models" />
   
   
   
@@ -30,8 +32,8 @@
     integrity="sha512-7&#43;mJzREJXu5eAmFzkVRywSi2G6ihBsIurUZ0HsklXnYl26GTxTuLtvpeo2UkjUdQ40XdcWVCNL2wTq3ELekfMA==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
-    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  <script type="text/javascript" src="/js/appearance.min.341d5febbddb9c8f01fb10bcf9d7c37f7724a85c08ede489ca65d1f405ed5912dfe5a871db198f9e5256c907d5933ab777bed942f595d0c11d994bd69d09e962.js"
+    integrity="sha512-NB1f673bnI8B&#43;xC8&#43;dfDf3ckqFwI7eSJymXR9AXtWRLf5ahx2xmPnlJWyQfVkzq3d77ZQvWV0MEdmUvWnQnpYg=="></script>
   
   
   
@@ -48,8 +50,6 @@
     integrity="sha512-RH&#43;mcj5FsU3XmSk84fc8lDQA8M0wTi3WzOoIOAJNtZ6GYziTdhR7W1I075WaXVHfBCeMAC/U8bhOsP38dcfLzA==" data-copy="" data-copied=""></script>
   
   
-  <script src="/js/zoom.min.js"></script>
-  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -63,46 +63,18 @@
   
   
   
-  <meta property="og:title" content="Part 06: And Now ... Some Theory" />
-<meta property="og:description" content="A discussion on points of optimization theory affecting the speed and quality of computation of hard problems intended to calibrate newcomers&#39; expectations, and covering how solvers work, the types of optimization problems, measuring problem hardness and common optimization methods." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/compendium/theory/" /><meta property="article:section" content="compendium" />
+  <meta property="og:title" content="Practical Optimization Theory" />
+<meta property="og:description" content="A treatise on the mathematical fundamentals of optimization most affecting practical implementations." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/compendium/theory/" />
 
 
 
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Part 06: And Now ... Some Theory"/>
-<meta name="twitter:description" content="A discussion on points of optimization theory affecting the speed and quality of computation of hard problems intended to calibrate newcomers&#39; expectations, and covering how solvers work, the types of optimization problems, measuring problem hardness and common optimization methods."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Practical Optimization Theory"/>
+<meta name="twitter:description" content="A treatise on the mathematical fundamentals of optimization most affecting practical implementations."/>
 
   
-  <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "",
-    "name": "Part 06: And Now ... Some Theory",
-    "headline": "Part 06: And Now ... Some Theory",
-    "description": "A discussion on points of optimization theory affecting the speed and quality of computation of hard problems intended to calibrate newcomers\u0027 expectations, and covering how solvers work, the types of optimization problems, measuring problem hardness and common optimization methods.",
-    
-    "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/compendium\/theory\/",
-    "author" : {
-      "@type": "Person",
-      "name": "Martin Laskowski"
-    },
-    
-    
-    
-    
-    
-    
-    
-    
-    "mainEntityOfPage": "true",
-    "wordCount": "0"
-  }]
-  </script>
-
+  
 
   
   
@@ -110,10 +82,16 @@
   
   
   
+  <link href="mailto:caretaker@opt-models.org" rel="me" />
+  
+  
   <link href="https://github.com/MartinLaskowski" rel="me" />
   
   
   <link href="https://linkedin.com/in/martinlaskowski/" rel="me" />
+  
+  
+  <link href="https://twitter.com/martylasky" rel="me" />
   
   
   <link href="https://www.youtube.com/@MartinLaskowski" rel="me" />
@@ -164,7 +142,7 @@
   
   <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -175,7 +153,7 @@
         <a href="/" class="flex">
             <span class="sr-only">opt-models</span>
 
-            <img src="/img/logo-darkmode.png" width="640" height="320"
+            <img src="/img/logo-tall-thick-dark.png" width="640" height="320"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="opt-models" />
 
         </a>
@@ -191,13 +169,128 @@
 
             
             
-            
-  <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
     
-    <p class="text-base font-medium" title="">
-        compendium
-    </p>
-</a>
+    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      The Compendium
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            Welcome!
+          </p>
+        </a>
+        
+        <a href="/compendium/lego/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            <strong>RELEASING NOW:</strong> Building the LEGO® Opt App
+          </p>
+        </a>
+        
+        <a href="/compendium/magical-optimization-programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Magical Opt Programming
+          </p>
+        </a>
+        
+        <a href="/compendium/toolchain/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization Toolchain
+          </p>
+        </a>
+        
+        <a href="/compendium/optimization-model-parts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Five Parts of an Opt Model
+          </p>
+        </a>
+        
+        <a href="/compendium/dev-creature-comforts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Dev Creature Comforts
+          </p>
+        </a>
+        
+        <a href="/compendium/theory/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Practical Optimization Theory
+          </p>
+        </a>
+        
+        <a href="/compendium/speeding-opt-apps/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Speeding Opt Apps
+          </p>
+        </a>
+        
+        <a href="/compendium/optimization-markets-beyond-2024/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization Market Predictions
+          </p>
+        </a>
+        
+        <a href="/compendium/opt-loves-ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization ❤️ AI
+          </p>
+        </a>
+        
+        <a href="/compendium/thank-you/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Thank you to &hellip;
+          </p>
+        </a>
+        
+        <a href="/compendium/hey-community/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Hey, Community!
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
             
@@ -223,30 +316,10 @@
 
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        community
-    </p>
-</a>
-
-
-            
-            
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        wish lists
-    </p>
-</a>
-
-
-            
-            
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        resources
+        about
     </p>
 </a>
 
@@ -385,15 +458,146 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            compendium
+            The Compendium
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            Welcome!
         </p>
     </a>
 </li>
+
+<li class="mt-1">
+    <a href="/compendium/lego/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            <strong>RELEASING NOW:</strong> Building the LEGO® Opt App
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/magical-optimization-programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Magical Opt Programming
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/toolchain/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization Toolchain
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/optimization-model-parts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Five Parts of an Opt Model
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/dev-creature-comforts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Dev Creature Comforts
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/theory/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Practical Optimization Theory
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/speeding-opt-apps/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Speeding Opt Apps
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/optimization-markets-beyond-2024/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization Market Predictions
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/opt-loves-ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization ❤️ AI
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/thank-you/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Thank you to &hellip;
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/hey-community/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Hey, Community!
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
 
 
 
@@ -426,38 +630,10 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            community
-        </p>
-    </a>
-</li>
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            wish lists
-        </p>
-    </a>
-</li>
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            resources
+            about
         </p>
     </a>
 </li>
@@ -478,6 +654,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -495,12 +681,39 @@
       
 
 
-<article>
-  
 
-  <header id="single_header" class="mt-5 max-w-prose">
+
+
+
+
+
+
+
     
-    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/compendium/theory/background_hu87ed7b415ffd77093b7373d99cb7e64a_3145210_1200x0_resize_q75_box.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+ <header>
+  
+  <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
     
@@ -520,7 +733,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/compendium/"
-      >compendium</a
+      >Compendia</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -529,30 +742,17 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/compendium/theory/"
-      >Part 06: And Now ... Some Theory</a
+      >Practical Optimization Theory</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
 </ol>
 
 
+  
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">Practical Optimization Theory</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Part 06: And Now ... Some Theory
-    </h1>
-    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      
-
-
-
-
-
-  
-  
-
-
-
-
 
 
 
@@ -577,165 +777,741 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-
-  
-  
 </div>
 
 
-
-
-
-<div class="flex flex-row flex-wrap items-center">
+  </div>
+  
+  <script>
+    var oid = "views_compendium\/theory\/_index.md"
+    var oid_likes = "likes_compendium\/theory\/_index.md"
+  </script>
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-    </div>
-
-    
-    
-    
-    
-    
-
-    
-
-    
-
-    
-
-    
-  
+  <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
   </header>
-  
-  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
-    
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-        
-
-
-        <div class="article-content max-w-prose mb-20">
-          
-        </div>
-                
-        
-
-        
-
-          
-      </div>
-     
-    
-     <script>
-        var oid = "views_compendium\/theory\/index.md"
-        var oid_likes = "likes_compendium\/theory\/index.md"
-      </script>
+    <div class="min-w-0 min-h-0 max-w-prose">
       
-      
-      
-      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
-  
-    </section>
-  <footer class="pt-8 max-w-prose print:hidden">
-
-    
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-      <div class="flex justify-between pt-3">
-        <span>
-          
-            <a class="flex group mr-3" href="/compendium/speed/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Part 07: Making Optimization Apps Go Really Fast</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/compendium/lego-app-text-user-interface/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Part 05:06 LEGO® Opt App: Group SETS</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
-          
-        </span>
-      </div>
     </div>
+   
+
+
+
+  </section>
+  
+
+    
+    
+    
+
+    
+
+    <section class="space-y-10 w-full">
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/theory/descriptive-predictive-prescriptive-analytics/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/theory/descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon_hu6ba22fec93cad6da91aba4aee457bc07_938077_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/theory/descriptive-predictive-prescriptive-analytics/">Descriptive, Predictive, Prescriptive ... analytics</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
-    
-  </footer>
-</article>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/descriptive-analytics/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Descriptive Analytics
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/predictive-analytics/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Predictive Analytics
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/prescriptive-analytics/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Prescriptive Analytics
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/theory/optimization-problem-types/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/theory/optimization-problem-types/feature-06-02-coming-soon_hu6fd09779cd9721506249cb3e61b32a8f_978289_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/theory/optimization-problem-types/">Optimization Problem Types</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/combinatorial-optimization/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Combinatorial Optimization
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/summary/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Summary
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/theory/optimization-problem-hardness/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/theory/optimization-problem-hardness/feature-06-03-coming-soon_hu838207ea15014ddd8b39538a776bfc0f_1082914_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/theory/optimization-problem-hardness/">Optimization Problem Hardness</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/problem-hardness/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Problem Hardness
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/combinatorial-explosions/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Combinatorial Explosions
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/theory/optimization-methods/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/theory/optimization-methods/feature-06-04-coming-soon_hu3098cbef4068412aab4da5c7a27523a0_969767_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/theory/optimization-methods/">Optimization Methods</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dynamic-optimization/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Dynamic Optimization
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pattern-generation/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Pattern Generation
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/stochastic-optimization/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Stochastic Optimization
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/multi-objective-optimization/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Multi-Objective Optimization
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/heuristics/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Heuristics
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/theory/the-myth-of-the-objective/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/theory/the-myth-of-the-objective/feature-06-05-coming-soon_hu00c5070be0f12720523972fb03b3e550_863617_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/theory/the-myth-of-the-objective/">The Myth of the Objective</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/serendipity/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Serendipity
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/objectives/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Objectives
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/use-case/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Use Case
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &lsquo;Why Greatness Cannot Be Planned&rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+    </section>
+
+    
+
+  
+
+    
+
+  
       
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
-    
-    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-      <ul class="flex flex-col list-none sm:flex-row">
-        
-        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
-            title="">
-            
-            privacy
-          </a>
-        </li>
-        
-      </ul>
-    </nav>
     
   
   <div class="flex items-center justify-between">
@@ -743,9 +1519,9 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2024
-      Martin Laskowski
+      © 2024 opt-models.org | <a href="https://opensource.org/license/mit/"   target="_blank">
+    MIT License</a> unless otherwise noted | <a href="/privacy"  >
+    Privacy</a>
     </p>
     
 
@@ -762,12 +1538,6 @@
 
   </div>
   <script>
-    
-    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-      margin: 24,
-      background: 'rgba(0,0,0,0.5)',
-      scrollOffset: 0,
-    })
     
   </script>
   

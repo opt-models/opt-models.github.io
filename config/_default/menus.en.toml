@@ -10,66 +10,65 @@ url = "https://github.com/orgs/opt-models/repositories"
 identifier = "dTITSY7hX1"   
 weight = 2
 
-
 [[main]]
   name = "Welcome!"
   parent = "The Compendium"
   pageRef = "/"
   weight = 1
 [[main]]
-  name = "Magical Opt Prog"
-  parent = "The Compendium"
-  pageRef = "compendium/magical-optimization-programming"
-  weight = 2
-[[main]]
-  name = "Opt Toolchain"
-  parent = "The Compendium"
-  pageRef = ""
-  weight = 3
-[[main]]
-  name = "Five Opt Model Parts"
-  parent = "The Compendium"
-  pageRef = ""
-  weight = 4
-[[main]]
-  name = "Dev Creature Comforts"
-  parent = "The Compendium"
-  pageRef = ""
-  weight = 5
-[[main]]
-  name = "LEGO® Opt App"
+  name = "**RELEASING NOW:** Building the LEGO® Opt App"
   parent = "The Compendium"
   pageRef = "compendium/lego"
+  weight = 2
+[[main]]
+  name = "[COMING SOON] Magical Opt Programming"
+  parent = "The Compendium"
+  pageRef = "compendium/magical-optimization-programming"
+  weight = 3
+[[main]]
+  name = "[COMING SOON] Optimization Toolchain"
+  parent = "The Compendium"
+  pageRef = "compendium/toolchain"
+  weight = 4
+[[main]]
+  name = "[COMING SOON] Five Parts of an Opt Model"
+  parent = "The Compendium"
+  pageRef = "compendium/optimization-model-parts"
+  weight = 5
+[[main]]
+  name = "[COMING SOON] Dev Creature Comforts"
+  parent = "The Compendium"
+  pageRef = "compendium/dev-creature-comforts"
   weight = 6
 [[main]]
-  name = "Practical Opt Theory"
+  name = "[COMING SOON] Practical Optimization Theory"
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/theory"
   weight = 7
 [[main]]
-  name = "Speeding Opt Apps"
+  name = "[COMING SOON] Speeding Opt Apps"
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/speeding-opt-apps"
   weight = 8
 [[main]]
-  name = "Opt Market Predictions"
+  name = "[COMING SOON] Optimization Market Predictions"
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/optimization-markets-beyond-2024"
   weight = 9
 [[main]]
-  name = "Opt ❤️ AI"
+  name = "[COMING SOON] Optimization ❤️ AI"
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/opt-loves-ai"
   weight = 10
 [[main]]
-  name = "Thank you to ..."
+  name = "[COMING SOON] Thank you to ..."
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/thank-you"
   weight = 11
 [[main]]
-  name = "Hey, Community!"
+  name = "[COMING SOON] Hey, Community!"
   parent = "The Compendium"
-  pageRef = ""
+  pageRef = "compendium/hey-community"
   weight = 12
 
 # [[main]]

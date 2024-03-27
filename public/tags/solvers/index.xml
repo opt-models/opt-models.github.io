@@ -9,23 +9,23 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/solvers/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimization Toolchain: Major Component Overview</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-components/</link>
+      <title>Major Component Overview</title>
+      <link>http://localhost:1313/compendium/toolchain/components/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-components/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/components/</guid>
       <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-components/feature-02-01-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/components/feature-02-01-coming-soon.png" />
     </item>
     
     <item>
-      <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
+      <title>Model &#43; Solver</title>
+      <link>http://localhost:1313/compendium/toolchain/model-solver/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/model-solver/</guid>
       <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/model-solver/feature-02-02-coming-soon.png" />
     </item>
     
     <item>

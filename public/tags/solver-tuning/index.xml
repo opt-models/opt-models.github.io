@@ -9,13 +9,13 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Sat, 02 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/solver-tuning/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Tune the Solver!!!</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</link>
+      <title>Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego/solver-tuning/</link>
       <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</guid>
+      <guid>http://localhost:1313/compendium/lego/solver-tuning/</guid>
       <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-solver-tuning/feature-05-11-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/solver-tuning/feature-05-11-coming-soon.png" />
     </item>
     
   </channel>

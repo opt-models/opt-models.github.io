@@ -7,39 +7,9 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/compendium/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome to the Optimization Impostors&#39; Compendium</title>
-      <link>http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/</link>
-      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/</guid>
-      <description>Introducing the Compendium, its intended audience, its two main focuses - a code-first approach to building optimization models and increasing the speed of optimization computation - me (Martin Laskowski) and my motivations for creating this resource.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/feature-00-01-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>What&#39;s inside...</title>
-      <link>http://localhost:1313/compendium/welcome/welcome-overview/</link>
-      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/welcome/welcome-overview/</guid>
-      <description>An overview of the contents and the release structure of the Optimization Impostors&amp;rsquo; Compendium.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-overview/feature-00-02-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Talk on Maven</title>
-      <link>http://localhost:1313/compendium/welcome/welcome-maven/</link>
-      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/welcome/welcome-maven/</guid>
-      <description>Discuss the topics covered here on Maven: a social media platform structured around an &amp;ldquo;interest graph&amp;rdquo; rather than a &amp;ldquo;friend/social graph&amp;rdquo;. Maven feels good to me, like a glimpse of a possible shift in online culture from our current limbic-system hacking reality to something healthier and promoting of genuine serendipity.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/welcome/welcome-maven/feature-00-03-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>The magical nature of Optimization Programming</title>
+      <title>The Magical Nature of Optimization Programming</title>
       <link>http://localhost:1313/compendium/magical-optimization-programming/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -49,57 +19,7 @@
     </item>
     
     <item>
-      <title>Optimization Toolchain: Major Component Overview</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-components/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-components/</guid>
-      <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-components/feature-02-01-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Optimization Toolchain: Model &#43; Solver</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</link>
-      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</guid>
-      <description>A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-model-solver/feature-02-02-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Optimization Toolchain: Data Sources</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</link>
-      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</guid>
-      <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-data-sources/feature-02-03-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Optimization Toolchain: User Interfaces</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</guid>
-      <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</guid>
-      <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-glue-languages/feature-02-05-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>The five parts of an Optimization Model</title>
+      <title>The Five Parts of an Optimization Model</title>
       <link>http://localhost:1313/compendium/optimization-model-parts/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
@@ -116,56 +36,6 @@
       <guid>http://localhost:1313/compendium/dev-creature-comforts/</guid>
       <description>Extolling the value of tools like Git, fast code/text editors, exploratory data analysis (EDA) tools like GraphXR, whiteboarding tools like Whimsical, containerization, model/data separation and friendly syntax and naming conventions.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/dev-creature-comforts/feature-04-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Practical Opt Theory: Descriptive, Predictive, Prescriptive ... analytics</title>
-      <link>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</link>
-      <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</guid>
-      <description>My perspective on where and why mathematical optimization methods are commonly implemented in the commercial wild, sometimes as the Prescriptive component following earlier Predictive and/or Descriptive components in a modern Data Science pipeline.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/feature-06-01-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Practical Opt Theory: Optimization Problem Types</title>
-      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</link>
-      <pubDate>Thu, 22 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</guid>
-      <description>A whirlwind tour through the main problem types in the field of Combinatorial Optimization with an emphasis on their various real-world commercial implementations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-types/feature-06-02-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Practical Opt Theory: Optimization Problem Hardness</title>
-      <link>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</link>
-      <pubDate>Wed, 21 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</guid>
-      <description>Discussing the attributes of an optimization problem which make it harder to solve: combinatorial explosions, a lack of exploitable graph or other structure, etc. Also, a look at the usefulness of concepts like NP-hardness and Big O in addressing optimization problem hardness.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/feature-06-03-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Practical Opt Theory: Optimization Methods</title>
-      <link>http://localhost:1313/compendium/theory/theory-optimization-methods/</link>
-      <pubDate>Tue, 20 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/theory/theory-optimization-methods/</guid>
-      <description>A look at various optimization methods such as Stochastic data perturbation, dynamic solving, multi-objective optimization, pattern generation, heuristic and Metaheuristic solvers, and more.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-optimization-methods/feature-06-04-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Practical Opt Theory: The Myth of the Objective</title>
-      <link>http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/</link>
-      <pubDate>Mon, 19 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/</guid>
-      <description>An invitation to consider the application of mathematical optimization in light of the view expressed by Kenneth O. Stanley and Joel Lehman in their book &amp;lsquo;Why Greatness Cannot Be Planned&amp;rsquo; (2015). I posit that a richness of possible solutions can in many use cases be more valuable than a closer-to-optimum objective value.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/feature-06-05-coming-soon.png" />
     </item>
     
     <item>

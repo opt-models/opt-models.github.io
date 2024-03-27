@@ -9,13 +9,13 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Thu, 07 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/tuples/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Group SETS</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-group-sets/</link>
+      <title>Group SETS</title>
+      <link>http://localhost:1313/compendium/lego/group-sets/</link>
       <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-group-sets/</guid>
+      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
       <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-group-sets/feature-05-06-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
     </item>
     
   </channel>

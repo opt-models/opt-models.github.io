@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Building the LEGO® Opt App on opt-models</title>
+    <title>Building the LEGO Opt App on opt-models</title>
     <link>http://localhost:1313/series/building-the-lego-opt-app/</link>
-    <description>Recent content in Building the LEGO® Opt App on opt-models</description>
+    <description>Recent content in Building the LEGO Opt App on opt-models</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
@@ -166,6 +166,16 @@
       <guid>http://localhost:1313/compendium/lego/lego-app-hardware/</guid>
       <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-hardware/feature-05-16-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>LEGO® Opt App: Mistakes, lies &amp; abandoned features</title>
+      <link>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</link>
+      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</guid>
+      <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/feature-05-17-coming-soon.png" />
     </item>
     
     <item>

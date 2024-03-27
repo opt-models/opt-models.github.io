@@ -8,14 +8,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Part 02: The Optimization Toolchain &middot; opt-models</title>
-  <meta name="title" content="Part 02: The Optimization Toolchain &middot; opt-models" />
+  <title>The Optimization Toolchain &middot; opt-models</title>
+  <meta name="title" content="The Optimization Toolchain &middot; opt-models" />
   
-  <meta name="description" content="An overview of the optimization toolchain and underlying hardware and OS, including data sources, glue languages, modeling langs/tools, and solvers." />
+  <meta name="description" content="A breakdown of the typical toolchain employed in modern optimization applications, from data sources to modeling tools, solvers, UIs and scripting languages." />
   
   
   
   <link rel="canonical" href="http://localhost:1313/compendium/toolchain/" />
+  
+  <link rel="alternate" type="application/rss+xml" href="/compendium/toolchain/index.xml" title="opt-models" />
   
   
   
@@ -30,8 +32,8 @@
     integrity="sha512-7&#43;mJzREJXu5eAmFzkVRywSi2G6ihBsIurUZ0HsklXnYl26GTxTuLtvpeo2UkjUdQ40XdcWVCNL2wTq3ELekfMA==" />
   
   
-  <script type="text/javascript" src="/js/appearance.min.516a16745bea5a9bd011138d254cc0fd3973cd55ce6e15f3dec763e7c7c2c7448f8fe7b54cca811cb821b0c7e12cd161caace1dd794ac3d34d40937cbcc9ee12.js"
-    integrity="sha512-UWoWdFvqWpvQERONJUzA/TlzzVXObhXz3sdj58fCx0SPj&#43;e1TMqBHLghsMfhLNFhyqzh3XlKw9NNQJN8vMnuEg=="></script>
+  <script type="text/javascript" src="/js/appearance.min.341d5febbddb9c8f01fb10bcf9d7c37f7724a85c08ede489ca65d1f405ed5912dfe5a871db198f9e5256c907d5933ab777bed942f595d0c11d994bd69d09e962.js"
+    integrity="sha512-NB1f673bnI8B&#43;xC8&#43;dfDf3ckqFwI7eSJymXR9AXtWRLf5ahx2xmPnlJWyQfVkzq3d77ZQvWV0MEdmUvWnQnpYg=="></script>
   
   
   
@@ -48,8 +50,6 @@
     integrity="sha512-RH&#43;mcj5FsU3XmSk84fc8lDQA8M0wTi3WzOoIOAJNtZ6GYziTdhR7W1I075WaXVHfBCeMAC/U8bhOsP38dcfLzA==" data-copy="" data-copied=""></script>
   
   
-  <script src="/js/zoom.min.js"></script>
-  
   
   
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -63,46 +63,18 @@
   
   
   
-  <meta property="og:title" content="Part 02: The Optimization Toolchain" />
-<meta property="og:description" content="An overview of the optimization toolchain and underlying hardware and OS, including data sources, glue languages, modeling langs/tools, and solvers." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/compendium/toolchain/" /><meta property="article:section" content="compendium" />
+  <meta property="og:title" content="The Optimization Toolchain" />
+<meta property="og:description" content="A breakdown of the typical toolchain employed in modern optimization applications, from data sources to modeling tools, solvers, UIs and scripting languages." />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://localhost:1313/compendium/toolchain/" />
 
 
 
-
-  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Part 02: The Optimization Toolchain"/>
-<meta name="twitter:description" content="An overview of the optimization toolchain and underlying hardware and OS, including data sources, glue languages, modeling langs/tools, and solvers."/>
+  <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="The Optimization Toolchain"/>
+<meta name="twitter:description" content="A breakdown of the typical toolchain employed in modern optimization applications, from data sources to modeling tools, solvers, UIs and scripting languages."/>
 
   
-  <script type="application/ld+json">
-  [{
-    "@context": "https://schema.org",
-    "@type": "Article",
-    "articleSection": "",
-    "name": "Part 02: The Optimization Toolchain",
-    "headline": "Part 02: The Optimization Toolchain",
-    "description": "An overview of the optimization toolchain and underlying hardware and OS, including data sources, glue languages, modeling langs\/tools, and solvers.",
-    
-    "inLanguage": "en",
-    "url" : "http:\/\/localhost:1313\/compendium\/toolchain\/",
-    "author" : {
-      "@type": "Person",
-      "name": "Martin Laskowski"
-    },
-    
-    
-    
-    
-    
-    
-    
-    
-    "mainEntityOfPage": "true",
-    "wordCount": "0"
-  }]
-  </script>
-
+  
 
   
   
@@ -110,10 +82,16 @@
   
   
   
+  <link href="mailto:caretaker@opt-models.org" rel="me" />
+  
+  
   <link href="https://github.com/MartinLaskowski" rel="me" />
   
   
   <link href="https://linkedin.com/in/martinlaskowski/" rel="me" />
+  
+  
+  <link href="https://twitter.com/martylasky" rel="me" />
   
   
   <link href="https://www.youtube.com/@MartinLaskowski" rel="me" />
@@ -164,7 +142,7 @@
   
   <div class="min-h-[148px]"></div>
 <div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
-  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom bg-neutral dark:bg-neutral-800"></div>
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
   <div class="relative max-w-[64rem] ml-auto mr-auto">
     <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
     class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
@@ -175,7 +153,7 @@
         <a href="/" class="flex">
             <span class="sr-only">opt-models</span>
 
-            <img src="/img/logo-darkmode.png" width="640" height="320"
+            <img src="/img/logo-tall-thick-dark.png" width="640" height="320"
                 class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="opt-models" />
 
         </a>
@@ -191,13 +169,128 @@
 
             
             
-            
-  <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
     
-    <p class="text-base font-medium" title="">
-        compendium
-    </p>
-</a>
+    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      The Compendium
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            Welcome!
+          </p>
+        </a>
+        
+        <a href="/compendium/lego/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            <strong>RELEASING NOW:</strong> Building the LEGO® Opt App
+          </p>
+        </a>
+        
+        <a href="/compendium/magical-optimization-programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Magical Opt Programming
+          </p>
+        </a>
+        
+        <a href="/compendium/toolchain/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization Toolchain
+          </p>
+        </a>
+        
+        <a href="/compendium/optimization-model-parts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Five Parts of an Opt Model
+          </p>
+        </a>
+        
+        <a href="/compendium/dev-creature-comforts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Dev Creature Comforts
+          </p>
+        </a>
+        
+        <a href="/compendium/theory/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Practical Optimization Theory
+          </p>
+        </a>
+        
+        <a href="/compendium/speeding-opt-apps/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Speeding Opt Apps
+          </p>
+        </a>
+        
+        <a href="/compendium/optimization-markets-beyond-2024/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization Market Predictions
+          </p>
+        </a>
+        
+        <a href="/compendium/opt-loves-ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Optimization ❤️ AI
+          </p>
+        </a>
+        
+        <a href="/compendium/thank-you/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Thank you to &hellip;
+          </p>
+        </a>
+        
+        <a href="/compendium/hey-community/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="">
+            [COMING SOON] Hey, Community!
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
             
@@ -223,30 +316,10 @@
 
             
             
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
     
     <p class="text-base font-medium" title="">
-        community
-    </p>
-</a>
-
-
-            
-            
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        wish lists
-    </p>
-</a>
-
-
-            
-            
-  <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-    
-    <p class="text-base font-medium" title="">
-        resources
+        about
     </p>
 </a>
 
@@ -385,15 +458,146 @@
 
                     
 
-                    
+                     
   <li class="mt-1">
-    <a href="/compendium/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            compendium
+            The Compendium
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            Welcome!
         </p>
     </a>
 </li>
+
+<li class="mt-1">
+    <a href="/compendium/lego/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            <strong>RELEASING NOW:</strong> Building the LEGO® Opt App
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/magical-optimization-programming/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Magical Opt Programming
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/toolchain/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization Toolchain
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/optimization-model-parts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Five Parts of an Opt Model
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/dev-creature-comforts/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Dev Creature Comforts
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/theory/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Practical Optimization Theory
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/speeding-opt-apps/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Speeding Opt Apps
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/optimization-markets-beyond-2024/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization Market Predictions
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/opt-loves-ai/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Optimization ❤️ AI
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/thank-you/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Thank you to &hellip;
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/compendium/hey-community/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="">
+            [COMING SOON] Hey, Community!
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
 
 
 
@@ -426,38 +630,10 @@
 
                     
   <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
         
         <p class="text-bg font-bg" title="">
-            community
-        </p>
-    </a>
-</li>
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            wish lists
-        </p>
-    </a>
-</li>
-
-
-
-                    
-
-                    
-  <li class="mt-1">
-    <a href=""  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
-        
-        <p class="text-bg font-bg" title="">
-            resources
+            about
         </p>
     </a>
 </li>
@@ -478,6 +654,16 @@
 
 
 
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
 
   </div>
 </div>
@@ -495,12 +681,39 @@
       
 
 
-<article>
-  
 
-  <header id="single_header" class="mt-5 max-w-prose">
+
+
+
+
+
+
+
     
-    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/compendium/toolchain/background_hud3eb26d32bdeb91f5d8bfd31b97c8790_2177236_1200x0_resize_q75_box.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+ <header>
+  
+  <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
   
   
     
@@ -520,7 +733,7 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/compendium/"
-      >compendium</a
+      >Compendia</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -529,30 +742,17 @@
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
       href="/compendium/toolchain/"
-      >Part 02: The Optimization Toolchain</a
+      >The Optimization Toolchain</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
 </ol>
 
 
+  
+  <h1 class="mt-5 text-4xl font-extrabold text-neutral-900 dark:text-neutral">The Optimization Toolchain</h1>
+  <div class="mt-1 mb-2 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
     
-    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Part 02: The Optimization Toolchain
-    </h1>
-    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
-      
-
-
-
-
-
-  
-  
-
-
-
-
 
 
 
@@ -577,165 +777,789 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-
-  
-  
 </div>
 
 
-
-
-
-<div class="flex flex-row flex-wrap items-center">
+  </div>
+  
+  <script>
+    var oid = "views_compendium\/toolchain\/_index.md"
+    var oid_likes = "likes_compendium\/toolchain\/_index.md"
+  </script>
   
   
   
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-</div>
-
-
-
-    </div>
-
-    
-    
-    
-    
-    
-
-    
-
-    
-
-    
-
-    
-  
+  <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
   </header>
-  
-  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+  <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
-    
-
-      <div class="min-w-0 min-h-0 max-w-fit">
-        
-        
-
-
-        <div class="article-content max-w-prose mb-20">
-          
-        </div>
-                
-        
-
-        
-
-          
-      </div>
-     
-    
-     <script>
-        var oid = "views_compendium\/toolchain\/index.md"
-        var oid_likes = "likes_compendium\/toolchain\/index.md"
-      </script>
+    <div class="min-w-0 min-h-0 max-w-prose">
       
-      
-      
-      <script type="text/javascript" src="/js/page.min.5b1bad196a6075a1e11bae1dc95f24f67b610948a00525e347566c5a62338ea78f1c7224ab9a53873dcdb2a1a7d7d391b8a8ef45561297f68806c01315b0c4f6.js" integrity="sha512-WxutGWpgdaHhG64dyV8k9nthCUigBSXjR1ZsWmIzjqePHHIkq5pThz3NsqGn19ORuKjvRVYSl/aIBsATFbDE9g=="></script>
-  
-    </section>
-  <footer class="pt-8 max-w-prose print:hidden">
-
-    
-  
-    
-    
-    
-    <div class="pt-8">
-      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
-      <div class="flex justify-between pt-3">
-        <span>
-          
-            <a class="flex group mr-3" href="/compendium/model-components/">
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Part 03: The Five Components of an Optimization Model</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-            </a>
-          
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/compendium/great-terrible-thing/">
-              <span class="flex flex-col">
-                <span
-                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
-                  >Part 01: The Awesome/Terrible thing about Optimization Programming</span
-                >
-                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
-                  
-                </span>
-              </span>
-              <span
-                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
-                >&rarr;</span
-              >
-              <span
-                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
-                >&larr;</span
-              >
-            </a>
-          
-        </span>
-      </div>
     </div>
+   
+
+
+
+  </section>
+  
+
+    
+    
+    
+
+    
+
+    <section class="space-y-10 w-full">
+      
+      
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/toolchain/components/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/toolchain/components/feature-02-01-coming-soon_hub372bdc917d27176cb7b22cc959618a6_960362_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/toolchain/components/">Major Component Overview</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
   
 
 
-    
-  </footer>
-</article>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/modeling-tools/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Modeling Tools
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/solvers/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Solvers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-sources/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Sources
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/toolchain/model-solver/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/toolchain/model-solver/feature-02-02-coming-soon_hu0a47473ae92d5cf4767779a4e1b578ac_964921_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/toolchain/model-solver/">Model + Solver</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/algebraic-modeling-languages/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Algebraic Modeling Languages
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/solvers/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Solvers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/speed/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Speed
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ampl/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    AMPL
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pyomo/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    PYOMO
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gams/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    GAMS
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/cplex/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    CPLEX
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gurobi/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Gurobi
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/highs/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    HiGHS
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A close look at large-scale optimization modeling tools and languages, and linear and nonlinear solvers.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/toolchain/data-sources/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/toolchain/data-sources/feature-02-03-coming-soon_hu3f18452cda75f0e3fcfe8c971cb433f0_639692_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/toolchain/data-sources/">Data Sources</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/data-sources/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Sources
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/dataframes/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    DataFrames
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/flat-files/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Flat Files
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Discussing common data sources for optimization models and their various means of connection to the model.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/toolchain/user-interfaces/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/toolchain/user-interfaces/feature-02-04-coming-soon_hu79c1ed50e7b5b1dcc0419bbe685d8c61_770591_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/toolchain/user-interfaces/">User Interfaces</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ui/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    UI
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/flat-files/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Flat Files
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/streamlit/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Streamlit
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <a class="flex flex-wrap article " href="/compendium/toolchain/glue-languages/">
+    
+        
+        <div class="w-full md:w-auto h-full thumbnail nozoom thumbnailshadow md:mr-7" style="background-image:url(/compendium/toolchain/glue-languages/feature-02-05-coming-soon_hu36dea444eb7d6c1037d44690942328cb_856140_600x0_resize_box_3.png);"></div>
+        
+      <div class=" mt-3 md:mt-0">
+      <div class="items-center text-left text-xl font-semibold">
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/compendium/toolchain/glue-languages/">'Glue' Languages</div>
+        
+        
+        
+      </div>
+      <div class="text-sm text-neutral-500 dark:text-neutral-400">
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-03-23 00:00:00 &#43;0000 UTC">Updated: 23 March 2024</time>
+  
+
+  
+  
+</div>
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/general-languages/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    General Languages
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/app-logic/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    App Logic
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+      </div>
+      
+      <div class="py-1 max-w-fit prose dark:prose-invert">
+        Discussing the use and interchangeability of general languages which &lsquo;glue&rsquo; optimization application components together and implement out-of-model app logic.
+      </div>
+      
+    </div>
+  </a>
+      
+      
+    </section>
+
+    
+
+  
+
+    
+
+  
       
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
-    
-    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
-      <ul class="flex flex-col list-none sm:flex-row">
-        
-        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
-          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href=""
-            title="">
-            
-            privacy
-          </a>
-        </li>
-        
-      </ul>
-    </nav>
     
   
   <div class="flex items-center justify-between">
@@ -743,9 +1567,9 @@
     
     
     <p class="text-sm text-neutral-500 dark:text-neutral-400">
-      &copy;
-      2024
-      Martin Laskowski
+      © 2024 opt-models.org | <a href="https://opensource.org/license/mit/"   target="_blank">
+    MIT License</a> unless otherwise noted | <a href="/privacy"  >
+    Privacy</a>
     </p>
     
 
@@ -762,12 +1586,6 @@
 
   </div>
   <script>
-    
-    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
-      margin: 24,
-      background: 'rgba(0,0,0,0.5)',
-      scrollOffset: 0,
-    })
     
   </script>
   

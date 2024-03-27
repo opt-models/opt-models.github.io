@@ -9,43 +9,43 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Sun, 17 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/flat-files/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimization Toolchain: Data Sources</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</link>
+      <title>Data Sources</title>
+      <link>http://localhost:1313/compendium/toolchain/data-sources/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/data-sources/</guid>
       <description>Discussing common data sources for optimization models and their various means of connection to the model.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-data-sources/feature-02-03-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/data-sources/feature-02-03-coming-soon.png" />
     </item>
     
     <item>
-      <title>Optimization Toolchain: User Interfaces</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</link>
+      <title>User Interfaces</title>
+      <link>http://localhost:1313/compendium/toolchain/user-interfaces/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/user-interfaces/</guid>
       <description>A look at practical as well as fancy means by which humans can interact with optimization models during development and in production.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/feature-02-04-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/user-interfaces/feature-02-04-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</link>
+      <title>Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
       <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</guid>
+      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
       <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/feature-05-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Add a Text-based User Interface</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</link>
+      <title>Add a Text-based User Interface</title>
+      <link>http://localhost:1313/compendium/lego/text-user-interface/</link>
       <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</guid>
+      <guid>http://localhost:1313/compendium/lego/text-user-interface/</guid>
       <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-text-user-interface/feature-05-07-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/text-user-interface/feature-05-07-coming-soon.png" />
     </item>
     
   </channel>

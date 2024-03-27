@@ -4,20 +4,13 @@ description: "Privacy Policy for the opt-models website"
 
 showAuthor: true
 showBreadcrumbs: false
-showHeadingAnchors: true
-showSummary: false
-showTaxonomies: false
-showTableOfContents: true
 showZenMode : true
-layoutBackgroundBlur: true
-
-showEdit: false
+showEdit: true
 
 date: "2024-03-22"
 showDate: false
 lastmod: "2024-03-23"
 showDateUpdated: true
-
 ---
 
 *(Folks, I've worked to make this as short and plain as possible but please contact me at caretaker@opt-models.org if anything here seems less than clear and fair. -- Martin Laskowski)*

@@ -9,13 +9,13 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/containerization/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Let&#39;s Containerize!</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-containerization/</link>
+      <title>Let&#39;s Containerize!</title>
+      <link>http://localhost:1313/compendium/lego/containerization/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-containerization/</guid>
+      <guid>http://localhost:1313/compendium/lego/containerization/</guid>
       <description>We are almost done with our Multi-Build optimization app! Now is a good time to containerize our app so that it can easily be deployed to various environments and even scaled across multiple heterogeneous environments at once.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-containerization/feature-05-15-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/containerization/feature-05-15-coming-soon.png" />
     </item>
     
   </channel>

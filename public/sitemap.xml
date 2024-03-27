@@ -15,31 +15,37 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/</loc>
-    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>http://localhost:1313/compendium/welcome/welcome-to-the-optimization-impostors-compendium/</loc>
-    <lastmod>2024-03-24T00:00:00+00:00</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>http://localhost:1313/privacy/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/welcome/welcome-overview/</loc>
+    <loc>http://localhost:1313/compendium/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/declarative-programming/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/welcome/welcome-maven/</loc>
+    <loc>http://localhost:1313/tags/problem-object/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/simplex/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -51,31 +57,169 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/toolchain/toolchain-components/</loc>
+    <loc>http://localhost:1313/tags/data-sources/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/toolchain/toolchain-model-solver/</loc>
+    <loc>http://localhost:1313/compendium/toolchain/components/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/toolchain/toolchain-data-sources/</loc>
+    <loc>http://localhost:1313/tags/modeling-tools/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/toolchain/toolchain-user-interfaces/</loc>
+    <loc>http://localhost:1313/series/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</loc>
+    <loc>http://localhost:1313/tags/solvers/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/toolchain/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/algebraic-modeling-languages/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ampl/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/cplex/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/gams/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/gurobi/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/highs/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/toolchain/model-solver/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/pyomo/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/speed/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/toolchain/data-sources/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/dataframes/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/flat-files/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/streamlit/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ui/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/toolchain/user-interfaces/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/toolchain/glue-languages/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/app-logic/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/general-languages/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/python/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/constraints/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/model-data-separation/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/objectives/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -93,145 +237,385 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/tags/code--text-editors/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/compendium/dev-creature-comforts/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-problem-description/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-buildout-plan/</loc>
+    <loc>http://localhost:1313/tags/graphxr/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-data-unboxing/</loc>
+    <loc>http://localhost:1313/compendium/theory/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/toolchain/</loc>
+    <lastmod>2024-03-25T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/lego/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-sketch-the-model/</loc>
+    <loc>http://localhost:1313/tags/problem-description/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-connect-model-to-data/</loc>
+    <loc>http://localhost:1313/compendium/lego/problem-description/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-group-sets/</loc>
+    <loc>http://localhost:1313/tags/use-case/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-text-user-interface/</loc>
+    <loc>http://localhost:1313/tags/app-build-plan/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-write-the-model/</loc>
+    <loc>http://localhost:1313/compendium/lego/buildout-plan/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-shrink-the-problem/</loc>
+    <loc>http://localhost:1313/tags/eda/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-on-the-fly-model-mods/</loc>
+    <loc>http://localhost:1313/tags/schema/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-solver-tuning/</loc>
+    <loc>http://localhost:1313/compendium/lego/data-unboxing/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</loc>
+    <loc>http://localhost:1313/compendium/lego/sketch-the-model/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/</loc>
+    <loc>http://localhost:1313/tags/variables/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-dynamic-solving/</loc>
+    <loc>http://localhost:1313/compendium/lego/connect-model-to-data/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-containerization/</loc>
+    <loc>http://localhost:1313/compendium/lego/group-sets/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-hardware/</loc>
+    <loc>http://localhost:1313/tags/sets/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-mistakes-lies-and-abandoned-features/</loc>
+    <loc>http://localhost:1313/tags/tuples/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/lego/lego-app-recap-and-what-happens-next/</loc>
+    <loc>http://localhost:1313/compendium/lego/text-user-interface/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/theory/theory-descriptive-predictive-prescriptive-analytics/</loc>
+    <loc>http://localhost:1313/tags/memory-efficiency/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/theory/theory-optimization-problem-types/</loc>
+    <loc>http://localhost:1313/compendium/lego/write-the-model/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/theory/theory-optimization-problem-hardness/</loc>
+    <loc>http://localhost:1313/tags/set-work/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/theory/theory-optimization-methods/</loc>
+    <loc>http://localhost:1313/compendium/lego/shrink-the-problem/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>http://localhost:1313/compendium/theory/theory-the-myth-of-the-objective/</loc>
+    <loc>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/model-assembly-at-runtime/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/solver-tuning/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/solver-tuning/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/streamlit-user-interface/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/ai-assisted-coding/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/dynamic-optimization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/dynamic-solving/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/containerization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/docker/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/docker-compose/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/hardware/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/containerization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/hardware/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/mistakes/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/app-handover/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/summary/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/descriptive-analytics/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/theory/descriptive-predictive-prescriptive-analytics/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/predictive-analytics/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/prescriptive-analytics/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/theory/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/combinatorial-optimization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/theory/optimization-problem-types/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/combinatorial-explosions/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/theory/optimization-problem-hardness/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/problem-hardness/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/heuristics/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/multi-objective-optimization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/theory/optimization-methods/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/pattern-generation/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/stochastic-optimization/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/serendipity/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/compendium/theory/the-myth-of-the-objective/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/speeding/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -243,7 +627,25 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/tags/predictions/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/predictions/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/compendium/optimization-markets-beyond-2024/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/optimization-%EF%B8%8F-ai/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -255,7 +657,31 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>http://localhost:1313/tags/community/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/gratitude/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/tags/love/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>http://localhost:1313/compendium/thank-you/</loc>
+    <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/series/thanks/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
@@ -263,6 +689,16 @@
   <url>
     <loc>http://localhost:1313/compendium/hey-community/</loc>
     <lastmod>2024-03-23T00:00:00+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/authors/</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>

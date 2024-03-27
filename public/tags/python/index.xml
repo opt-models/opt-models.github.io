@@ -9,33 +9,33 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Fri, 15 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Optimization Toolchain: &#39;Glue&#39; Languages</title>
-      <link>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</link>
+      <title>&#39;Glue&#39; Languages</title>
+      <link>http://localhost:1313/compendium/toolchain/glue-languages/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/toolchain/toolchain-glue-languages/</guid>
+      <guid>http://localhost:1313/compendium/toolchain/glue-languages/</guid>
       <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/toolchain-glue-languages/feature-02-05-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/glue-languages/feature-02-05-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Plan the Buildout</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-buildout-plan/</link>
+      <title>Plan the Buildout</title>
+      <link>http://localhost:1313/compendium/lego/buildout-plan/</link>
       <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-buildout-plan/</guid>
+      <guid>http://localhost:1313/compendium/lego/buildout-plan/</guid>
       <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-buildout-plan/feature-05-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/buildout-plan/feature-05-02-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Switch our glue land to Python</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</link>
+      <title>Switch our glue land to Python</title>
+      <link>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</link>
       <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/</guid>
+      <guid>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</guid>
       <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
     </item>
     
   </channel>

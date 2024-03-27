@@ -9,23 +9,23 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Tue, 27 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hardware/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Let&#39;s Containerize!</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-containerization/</link>
+      <title>Let&#39;s Containerize!</title>
+      <link>http://localhost:1313/compendium/lego/containerization/</link>
       <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-containerization/</guid>
+      <guid>http://localhost:1313/compendium/lego/containerization/</guid>
       <description>We are almost done with our Multi-Build optimization app! Now is a good time to containerize our app so that it can easily be deployed to various environments and even scaled across multiple heterogeneous environments at once.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-containerization/feature-05-15-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/containerization/feature-05-15-coming-soon.png" />
     </item>
     
     <item>
-      <title>LEGO® Opt App: Spec (rock!) the Hardware ;)</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-hardware/</link>
+      <title>Spec (rock!) the Hardware ;)</title>
+      <link>http://localhost:1313/compendium/lego/hardware/</link>
       <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-hardware/</guid>
+      <guid>http://localhost:1313/compendium/lego/hardware/</guid>
       <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-hardware/feature-05-16-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/hardware/feature-05-16-coming-soon.png" />
     </item>
     
   </channel>

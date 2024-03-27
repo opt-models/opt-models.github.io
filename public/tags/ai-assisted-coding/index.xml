@@ -9,13 +9,13 @@
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
     <lastBuildDate>Thu, 29 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ai-assisted-coding/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LEGO® Opt App: Add a Streamlit User Interface</title>
-      <link>http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/</link>
+      <title>Add a Streamlit User Interface</title>
+      <link>http://localhost:1313/compendium/lego/streamlit-user-interface/</link>
       <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/</guid>
+      <guid>http://localhost:1313/compendium/lego/streamlit-user-interface/</guid>
       <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/lego-app-streamlit-user-interface/feature-05-13-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/streamlit-user-interface/feature-05-13-coming-soon.png" />
     </item>
     
     <item>

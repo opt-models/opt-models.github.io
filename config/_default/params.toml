@@ -7,8 +7,10 @@ enableCodeCopy = true
 
 disableImageOptimization = false
 disableTextInHeader = true
+disableImageZoom = true
 
 defaultBackgroundImage = "/img/background.svg"
+#defaultFeaturedImage = "/img/background.svg"
 
 highlightCurrentMenuArea = true
 smartTOC = true
@@ -27,12 +29,13 @@ showAppearanceSwitcher = true
 showScrollToTop = true
 
 [homepage]
-layout = "background" # options: page, profile, hero, card, background, custom
+layout = "page" # options: page, profile, hero, card, background, custom
+# homepageImage = "/img/background.svg" # used in: hero, card and background
 showRecent = true
 showRecentItems = 3
 showMoreLink = false
 showMoreLinkDest = "/compendium"
-cardView = false
+cardView = true
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 
@@ -83,7 +86,7 @@ constrainItemsWidth = false
 
 
 [sitemap]
-excludedKinds = [ "taxonomy", "term" ]
+excludedKinds = []
 
 [taxonomy]
 showTermCount = true

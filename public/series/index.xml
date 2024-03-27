@@ -7,83 +7,53 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome!</title>
-      <link>http://localhost:1313/series/welcome/</link>
-      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/series/welcome/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>The Optimization Toolchain</title>
-      <link>http://localhost:1313/series/the-optimization-toolchain/</link>
+      <title>Toolchain</title>
+      <link>http://localhost:1313/series/toolchain/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/the-optimization-toolchain/</guid>
+      <guid>http://localhost:1313/series/toolchain/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Building the LEGO® Opt App</title>
-      <link>http://localhost:1313/series/building-the-lego-opt-app/</link>
+      <title>LEGO</title>
+      <link>http://localhost:1313/series/lego/</link>
       <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/building-the-lego-opt-app/</guid>
+      <guid>http://localhost:1313/series/lego/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>App Build Plan</title>
-      <link>http://localhost:1313/series/app-build-plan/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/series/app-build-plan/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Speed</title>
-      <link>http://localhost:1313/series/speed/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/series/speed/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Practical Optimization Theory</title>
-      <link>http://localhost:1313/series/practical-optimization-theory/</link>
+      <title>Theory</title>
+      <link>http://localhost:1313/series/theory/</link>
       <pubDate>Fri, 23 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/practical-optimization-theory/</guid>
+      <guid>http://localhost:1313/series/theory/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Speeding Optimization Apps</title>
-      <link>http://localhost:1313/series/speeding-optimization-apps/</link>
+      <title>Speeding</title>
+      <link>http://localhost:1313/series/speeding/</link>
       <pubDate>Sun, 18 Feb 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/speeding-optimization-apps/</guid>
+      <guid>http://localhost:1313/series/speeding/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Optimization Market Predictions</title>
-      <link>http://localhost:1313/series/optimization-market-predictions/</link>
+      <title>Predictions</title>
+      <link>http://localhost:1313/series/predictions/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/optimization-market-predictions/</guid>
+      <guid>http://localhost:1313/series/predictions/</guid>
       <description></description>
       
     </item>
@@ -99,11 +69,11 @@
     </item>
     
     <item>
-      <title>Thank You to ...</title>
-      <link>http://localhost:1313/series/thank-you-to-.../</link>
+      <title>Thanks</title>
+      <link>http://localhost:1313/series/thanks/</link>
       <pubDate>Tue, 02 Jan 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/series/thank-you-to-.../</guid>
+      <guid>http://localhost:1313/series/thanks/</guid>
       <description></description>
       
     </item>
