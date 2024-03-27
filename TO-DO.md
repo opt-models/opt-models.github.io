@@ -1,19 +1,17 @@
 # To-Do
 
 ## List Pages and Navigation
-- [x] make Privacy Policy text shorter and clearer
-- [ ] make Home page
-  - [ ] add hero
-  - [ ] add intro
+- [ ] make Home page (aka Welcome page for Compendium)
+  - [ ] add intro vids
   - [ ] add select Compendium sections
-- [ ] make Compendium page
-  - [ ] add series
-  - [ ] add post descriptions
-- [ ] make Community page
-  - [ ] add "contribute models!" CTA
+- [ ] make Compendium chapter pages
+  - [ ] fix series
+  - [x] add post descriptions
 - [ ] customize 404 page
-- [x] update Privacy Policy
 - [ ] make Tags page nice
+- [x] add About page
+  - [x] add "contribute models!" CTA
+- [x] make Privacy Policy text shorter and clearer
 
 ## Articles
 - [x] customize front matter
@@ -29,7 +27,6 @@
 
 ## Social and Sharing Links
 - [ ] add Maven (with custom icon) to:  
-  - [ ] Community page (per tag? ... e.g "optimization")
 
 ## Aesthetics
 - [x] add feature images to Compendium chapters
