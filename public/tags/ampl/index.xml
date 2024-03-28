@@ -7,7 +7,67 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ampl/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/ampl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
+      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Group SETS</title>
+      <link>http://localhost:1313/compendium/lego/group-sets/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
+      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Add a Text-based User Interface</title>
+      <link>http://localhost:1313/compendium/lego/text-user-interface/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/text-user-interface/</guid>
+      <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/text-user-interface/feature-05-07-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Write the Model</title>
+      <link>http://localhost:1313/compendium/lego/write-the-model/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/write-the-model/</guid>
+      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/write-the-model/feature-05-08-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego/shrink-the-problem/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/shrink-the-problem/</guid>
+      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/shrink-the-problem/feature-05-09-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Make on-the-fly model mods</title>
+      <link>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</guid>
+      <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/on-the-fly-model-mods/feature-05-10-coming-soon.png" />
+    </item>
+    
     <item>
       <title>Model &#43; Solver</title>
       <link>http://localhost:1313/compendium/toolchain/model-solver/</link>
@@ -19,69 +79,9 @@
     </item>
     
     <item>
-      <title>Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
-      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Group SETS</title>
-      <link>http://localhost:1313/compendium/lego/group-sets/</link>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
-      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Add a Text-based User Interface</title>
-      <link>http://localhost:1313/compendium/lego/text-user-interface/</link>
-      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/text-user-interface/</guid>
-      <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/text-user-interface/feature-05-07-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Write the Model</title>
-      <link>http://localhost:1313/compendium/lego/write-the-model/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/write-the-model/</guid>
-      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/write-the-model/feature-05-08-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Shrink the Problem</title>
-      <link>http://localhost:1313/compendium/lego/shrink-the-problem/</link>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/shrink-the-problem/</guid>
-      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/shrink-the-problem/feature-05-09-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</link>
-      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</guid>
-      <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/on-the-fly-model-mods/feature-05-10-coming-soon.png" />
-    </item>
-    
-    <item>
       <title>Switch our glue land to Python</title>
       <link>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</guid>
       <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
@@ -91,7 +91,7 @@
     <item>
       <title>Go Dynamic! ...with iterative solving</title>
       <link>http://localhost:1313/compendium/lego/dynamic-solving/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/dynamic-solving/</guid>
       <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>

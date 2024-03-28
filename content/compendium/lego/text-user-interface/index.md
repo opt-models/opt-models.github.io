@@ -1,8 +1,8 @@
 ---
 title: "Add a Text-based User Interface"
 description: "We add a simple but functional and attractive text-based user interface via a flat data file formatted for good human readability and manual data input."
-date: "2024-03-06"
-lastmod: "2024-03-23"
+date: "2024-03-21"
+lastmod: "2024-03-28"
 
 tags: ["Flat Files","UI","AMPL"]
 series: ["LEGO"]

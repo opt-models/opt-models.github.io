@@ -1,8 +1,8 @@
 ---
 title: "Add a Streamlit User Interface"
 description: "Now that our optimization app's non-model logic script (aka 'the main script') is in Python, we add a lovely Streamlit UI based on our text-based UI, created with some help from our cheerful AI coding assistant."
-date: "2024-02-29"
-lastmod: "2024-03-23"
+date: "2024-03-15"
+lastmod: "2024-03-28"
 
 tags: ["Streamlit","UI","AI-Assisted Coding"]
 series: ["LEGO"]

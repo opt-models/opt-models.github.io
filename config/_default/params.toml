@@ -30,12 +30,12 @@ showScrollToTop = true
 
 [homepage]
 layout = "page" # options: page, profile, hero, card, background, custom
-# homepageImage = "/img/background.svg" # used in: hero, card and background
+homepageImage = "/img/background.svg" # used in: hero, card and background
 showRecent = true
-showRecentItems = 3
+showRecentItems = 40
 showMoreLink = false
 showMoreLinkDest = "/compendium"
-cardView = true
+cardView = false
 cardViewScreenWidth = false
 layoutBackgroundBlur = true
 

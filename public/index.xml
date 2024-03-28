@@ -7,7 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Sun, 24 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Problem Description</title>
+      <link>http://localhost:1313/compendium/lego/problem-description/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/problem-description/</guid>
+      <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/problem-description/feature-05-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Plan the Buildout</title>
+      <link>http://localhost:1313/compendium/lego/buildout-plan/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/buildout-plan/</guid>
+      <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/buildout-plan/feature-05-02-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Unbox the Data!</title>
+      <link>http://localhost:1313/compendium/lego/data-unboxing/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/data-unboxing/</guid>
+      <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/data-unboxing/feature-05-03-coming-soon.png" />
+    </item>
+    
     <item>
       <title>About opt-models.org</title>
       <link>http://localhost:1313/about/</link>
@@ -17,6 +47,36 @@
       <description>Fast, large-scale mathematical optimization models drive our stock markets, route ambulances, fly drones, aim space telescopes and supply electricity: optimization is important and beautiful.
 For six years at AMPL I had the tremendous luck to learn from seasoned practitioners in our team and in our customers&amp;rsquo; teams how to build, improve, repair and deploy optimization models in many commercial contexts.</description>
       
+    </item>
+    
+    <item>
+      <title>Sketch the Model</title>
+      <link>http://localhost:1313/compendium/lego/sketch-the-model/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/sketch-the-model/</guid>
+      <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/sketch-the-model/feature-05-04-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Connect Model to Data</title>
+      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
+      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Group SETS</title>
+      <link>http://localhost:1313/compendium/lego/group-sets/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
+      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
     </item>
     
     <item>
@@ -31,6 +91,16 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     </item>
     
     <item>
+      <title>Add a Text-based User Interface</title>
+      <link>http://localhost:1313/compendium/lego/text-user-interface/</link>
+      <pubDate>Thu, 21 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/text-user-interface/</guid>
+      <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/text-user-interface/feature-05-07-coming-soon.png" />
+    </item>
+    
+    <item>
       <title>The Magical Nature of Optimization Programming</title>
       <link>http://localhost:1313/compendium/magical-optimization-programming/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
@@ -41,6 +111,16 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     </item>
     
     <item>
+      <title>Write the Model</title>
+      <link>http://localhost:1313/compendium/lego/write-the-model/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/write-the-model/</guid>
+      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/write-the-model/feature-05-08-coming-soon.png" />
+    </item>
+    
+    <item>
       <title>Major Component Overview</title>
       <link>http://localhost:1313/compendium/toolchain/components/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
@@ -48,6 +128,26 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
       <guid>http://localhost:1313/compendium/toolchain/components/</guid>
       <description>An overview of the modern optimization toolchain typically deployed in commercial applications: data sources, glue languages, modeling langs/tools, solvers and optional user interfaces.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/components/feature-02-01-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Shrink the Problem</title>
+      <link>http://localhost:1313/compendium/lego/shrink-the-problem/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/shrink-the-problem/</guid>
+      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/shrink-the-problem/feature-05-09-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Make on-the-fly model mods</title>
+      <link>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</guid>
+      <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/on-the-fly-model-mods/feature-05-10-coming-soon.png" />
     </item>
     
     <item>
@@ -71,6 +171,26 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     </item>
     
     <item>
+      <title>Tune the Solver!!!</title>
+      <link>http://localhost:1313/compendium/lego/solver-tuning/</link>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/solver-tuning/</guid>
+      <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/solver-tuning/feature-05-11-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Switch our glue land to Python</title>
+      <link>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</link>
+      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</guid>
+      <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
+    </item>
+    
+    <item>
       <title>User Interfaces</title>
       <link>http://localhost:1313/compendium/toolchain/user-interfaces/</link>
       <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
@@ -88,6 +208,26 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
       <guid>http://localhost:1313/compendium/toolchain/glue-languages/</guid>
       <description>Discussing the use and interchangeability of general languages which &amp;lsquo;glue&amp;rsquo; optimization application components together and implement out-of-model app logic.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/toolchain/glue-languages/feature-02-05-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Add a Streamlit User Interface</title>
+      <link>http://localhost:1313/compendium/lego/streamlit-user-interface/</link>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/streamlit-user-interface/</guid>
+      <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/streamlit-user-interface/feature-05-13-coming-soon.png" />
+    </item>
+    
+    <item>
+      <title>Go Dynamic! ...with iterative solving</title>
+      <link>http://localhost:1313/compendium/lego/dynamic-solving/</link>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/compendium/lego/dynamic-solving/</guid>
+      <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/dynamic-solving/feature-05-14-coming-soon.png" />
     </item>
     
     <item>
@@ -111,149 +251,9 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     </item>
     
     <item>
-      <title>The Problem Description</title>
-      <link>http://localhost:1313/compendium/lego/problem-description/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/problem-description/</guid>
-      <description>An introduction to the awesome user community in which arises the opportunity to build a &amp;lsquo;Multi-Build&amp;rsquo; app for LEGO® enthusiasts that finds multiple sets buildable concurrently from parts in a given person&amp;rsquo;s part inventory.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/problem-description/feature-05-01-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Plan the Buildout</title>
-      <link>http://localhost:1313/compendium/lego/buildout-plan/</link>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/buildout-plan/</guid>
-      <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/buildout-plan/feature-05-02-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Unbox the Data!</title>
-      <link>http://localhost:1313/compendium/lego/data-unboxing/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/data-unboxing/</guid>
-      <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/data-unboxing/feature-05-03-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Sketch the Model</title>
-      <link>http://localhost:1313/compendium/lego/sketch-the-model/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/sketch-the-model/</guid>
-      <description>Step-by-step we ideate model variables and constraints, jotting these down initially as natural language comments in our new AMPL model.mod file.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/sketch-the-model/feature-05-04-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Connect Model to Data</title>
-      <link>http://localhost:1313/compendium/lego/connect-model-to-data/</link>
-      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/connect-model-to-data/</guid>
-      <description>We establish a connection via an import script (written in the AMPL scripting syntax, later to be replaced by a Python script) to a collection of CSV and flat text data files.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/connect-model-to-data/feature-05-05-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Group SETS</title>
-      <link>http://localhost:1313/compendium/lego/group-sets/</link>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/group-sets/</guid>
-      <description>We discuss why grouping sets of single entities into aggregate sets of tuples (aka &amp;lsquo;cartesian products&amp;rsquo;, &amp;lsquo;cross-joins&amp;rsquo;) dramatically increases the performance of our optimization app. Also, we discuss the accompanying increase in data memory footprint.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/group-sets/feature-05-06-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Add a Text-based User Interface</title>
-      <link>http://localhost:1313/compendium/lego/text-user-interface/</link>
-      <pubDate>Wed, 06 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/text-user-interface/</guid>
-      <description>We add a simple but functional, attractive text-based user interface by way of a flat data file formatted for good readability and manual data input.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/text-user-interface/feature-05-07-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Write the Model</title>
-      <link>http://localhost:1313/compendium/lego/write-the-model/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/write-the-model/</guid>
-      <description>One-by-one we convert our natural language comments representing model vars and constraints into actual model entities. In the process, we add display statements for health-checking the memory size and cardinality of our new model element.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/write-the-model/feature-05-08-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Shrink the Problem</title>
-      <link>http://localhost:1313/compendium/lego/shrink-the-problem/</link>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/shrink-the-problem/</guid>
-      <description>With constraints in place which ensure that selected LEGO® sets are complete, we now implement constraints limiting the search space to sets that the user desires. We then observe that, while functional, a faster-computing way to implement such &amp;lsquo;problem shrinking&amp;rsquo; is via set manipulation rather than constraint imposition.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/shrink-the-problem/feature-05-09-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Make on-the-fly model mods</title>
-      <link>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</link>
-      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/on-the-fly-model-mods/</guid>
-      <description>We add functionality to our script that drops unneeded constraints per user-specified options, effectively changing the form of our optimization model on-the-fly. We also discuss extreme approaches to such run-time model construction, in light of the modular nature of optimization model components.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/on-the-fly-model-mods/feature-05-10-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Tune the Solver!!!</title>
-      <link>http://localhost:1313/compendium/lego/solver-tuning/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/solver-tuning/</guid>
-      <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/solver-tuning/feature-05-11-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Switch our glue land to Python</title>
-      <link>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</link>
-      <pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/switch-glue-lang-to-python/</guid>
-      <description>Having worked thus far in only the AMPL modeling and scripting languages respectively, we jettison the AMPL scripting language and replace it with Python. This transforms our model into a component callable from within Python via the AMPL-Python API.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/switch-glue-lang-to-python/feature-05-12-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Add a Streamlit User Interface</title>
-      <link>http://localhost:1313/compendium/lego/streamlit-user-interface/</link>
-      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/streamlit-user-interface/</guid>
-      <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/streamlit-user-interface/feature-05-13-coming-soon.png" />
-    </item>
-    
-    <item>
-      <title>Go Dynamic! ...with iterative solving</title>
-      <link>http://localhost:1313/compendium/lego/dynamic-solving/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/compendium/lego/dynamic-solving/</guid>
-      <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/dynamic-solving/feature-05-14-coming-soon.png" />
-    </item>
-    
-    <item>
       <title>Let&#39;s Containerize!</title>
       <link>http://localhost:1313/compendium/lego/containerization/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/containerization/</guid>
       <description>We are almost done with our Multi-Build optimization app! Now is a good time to containerize our app so that it can easily be deployed to various environments and even scaled across multiple heterogeneous environments at once.</description>
@@ -263,7 +263,7 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     <item>
       <title>Spec (rock!) the Hardware ;)</title>
       <link>http://localhost:1313/compendium/lego/hardware/</link>
-      <pubDate>Mon, 26 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/hardware/</guid>
       <description>Now, let&amp;rsquo;s dream out loud about some fast hardware platforms to run our app. Physical memory allotment, CPU thread speed, hard disk speed, non-optimization process load, networking and remote database access bandwidth requirements &amp;hellip; all impact our hardware specifications.</description>
@@ -273,7 +273,7 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     <item>
       <title>Mistakes, lies &amp; abandoned features</title>
       <link>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/mistakes-lies-and-abandoned-features/</guid>
       <description>I reveal some undisclosed turns taken during my initial development of this app. Notably: an abandoned attempt to implement a recursive search for nested sets within sets that would potentially have enabled some cool additional features, and which I might return to later.</description>
@@ -283,7 +283,7 @@ EFFECTIVE DATE: 2024-03-22 # This Privacy Policy describes how opt-models.</desc
     <item>
       <title>RECAP! ...and what happens next</title>
       <link>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/recap-and-what-happens-next/</guid>
       <description>A recap of the main points of optimization craft covered in this series, including every major speed-enhancing manuever. I also ponder out loud what interactions with the Rebrickable team might hold for the apps real-world deployment and how to approach this interaction as good citizens.</description>

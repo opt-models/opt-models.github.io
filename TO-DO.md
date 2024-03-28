@@ -1,12 +1,12 @@
 # To-Do
 
 ## List Pages and Navigation
-- [ ] make Home page (aka Welcome page for Compendium)
-  - [ ] add intro video
-  - [ ] add 'Discuss on Maven' segment
-    - [ ] render higher-res Maven logo
-  - [ ] add GitHub repo summary segment
-  - [ ] add Compendium chapters
+- [x] make Home page (aka Welcome page for Compendium)
+  - [x] add intro video
+  - [x] add 'Discuss on Maven' segment
+    - [x] render higher-res Maven logo
+  - [x] add GitHub repo summary segment
+  - [x] add Compendium chapters
   - [x] add Recent Compendium sections
 - [ ] customize Compendium list pages
 - [ ] customize 404 page
@@ -43,6 +43,7 @@
 - [x] rerender video thumbnails (simplifying main section numbering scheme)
 - [ ] upload videos:
   - [ ] 'Welcome to opt-models.org!'
+  - [ ] 'LEGO: The Problem Description'
 
 ## Search
 - [ ] add faceted search for models

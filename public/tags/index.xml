@@ -7,13 +7,193 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 opt-models.org | [MIT License](https://opensource.org/license/mit/) unless otherwise noted | [Privacy](/privacy)</copyright>
-    <lastBuildDate>Wed, 20 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 27 Mar 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Objectives</title>
+      <link>http://localhost:1313/tags/objectives/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/objectives/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Problem Description</title>
+      <link>http://localhost:1313/tags/problem-description/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/problem-description/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Use Case</title>
+      <link>http://localhost:1313/tags/use-case/</link>
+      <pubDate>Wed, 27 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/use-case/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>App Build Plan</title>
+      <link>http://localhost:1313/tags/app-build-plan/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/app-build-plan/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>http://localhost:1313/tags/python/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UI</title>
+      <link>http://localhost:1313/tags/ui/</link>
+      <pubDate>Tue, 26 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ui/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>EDA</title>
+      <link>http://localhost:1313/tags/eda/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/eda/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GraphXR</title>
+      <link>http://localhost:1313/tags/graphxr/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/graphxr/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Schema</title>
+      <link>http://localhost:1313/tags/schema/</link>
+      <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/schema/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Constraints</title>
+      <link>http://localhost:1313/tags/constraints/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/constraints/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Variables</title>
+      <link>http://localhost:1313/tags/variables/</link>
+      <pubDate>Sun, 24 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/variables/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AMPL</title>
+      <link>http://localhost:1313/tags/ampl/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/ampl/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Data Sources</title>
+      <link>http://localhost:1313/tags/data-sources/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/data-sources/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Flat Files</title>
+      <link>http://localhost:1313/tags/flat-files/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/flat-files/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Speed</title>
+      <link>http://localhost:1313/tags/speed/</link>
+      <pubDate>Sat, 23 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/speed/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>SETS</title>
+      <link>http://localhost:1313/tags/sets/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/sets/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Tuples</title>
+      <link>http://localhost:1313/tags/tuples/</link>
+      <pubDate>Fri, 22 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/tuples/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Declarative Programming</title>
       <link>http://localhost:1313/tags/declarative-programming/</link>
       <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/declarative-programming/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Memory Efficiency</title>
+      <link>http://localhost:1313/tags/memory-efficiency/</link>
+      <pubDate>Wed, 20 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/memory-efficiency/</guid>
       <description></description>
       
     </item>
@@ -39,21 +219,21 @@
     </item>
     
     <item>
-      <title>Data Sources</title>
-      <link>http://localhost:1313/tags/data-sources/</link>
-      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/data-sources/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Modeling Tools</title>
       <link>http://localhost:1313/tags/modeling-tools/</link>
       <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/modeling-tools/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Set Work</title>
+      <link>http://localhost:1313/tags/set-work/</link>
+      <pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/set-work/</guid>
       <description></description>
       
     </item>
@@ -79,11 +259,11 @@
     </item>
     
     <item>
-      <title>AMPL</title>
-      <link>http://localhost:1313/tags/ampl/</link>
+      <title>App Logic</title>
+      <link>http://localhost:1313/tags/app-logic/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/ampl/</guid>
+      <guid>http://localhost:1313/tags/app-logic/</guid>
       <description></description>
       
     </item>
@@ -129,21 +309,21 @@
     </item>
     
     <item>
-      <title>PYOMO</title>
-      <link>http://localhost:1313/tags/pyomo/</link>
+      <title>Model Assembly at Runtime</title>
+      <link>http://localhost:1313/tags/model-assembly-at-runtime/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/pyomo/</guid>
+      <guid>http://localhost:1313/tags/model-assembly-at-runtime/</guid>
       <description></description>
       
     </item>
     
     <item>
-      <title>Speed</title>
-      <link>http://localhost:1313/tags/speed/</link>
+      <title>PYOMO</title>
+      <link>http://localhost:1313/tags/pyomo/</link>
       <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/speed/</guid>
+      <guid>http://localhost:1313/tags/pyomo/</guid>
       <description></description>
       
     </item>
@@ -159,11 +339,11 @@
     </item>
     
     <item>
-      <title>Flat Files</title>
-      <link>http://localhost:1313/tags/flat-files/</link>
+      <title>Solver Tuning</title>
+      <link>http://localhost:1313/tags/solver-tuning/</link>
       <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/flat-files/</guid>
+      <guid>http://localhost:1313/tags/solver-tuning/</guid>
       <description></description>
       
     </item>
@@ -179,21 +359,11 @@
     </item>
     
     <item>
-      <title>UI</title>
-      <link>http://localhost:1313/tags/ui/</link>
-      <pubDate>Sat, 16 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ui/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>App Logic</title>
-      <link>http://localhost:1313/tags/app-logic/</link>
+      <title>AI-Assisted Coding</title>
+      <link>http://localhost:1313/tags/ai-assisted-coding/</link>
       <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/app-logic/</guid>
+      <guid>http://localhost:1313/tags/ai-assisted-coding/</guid>
       <description></description>
       
     </item>
@@ -209,21 +379,11 @@
     </item>
     
     <item>
-      <title>Python</title>
-      <link>http://localhost:1313/tags/python/</link>
-      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/python/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Constraints</title>
-      <link>http://localhost:1313/tags/constraints/</link>
+      <title>Dynamic Optimization</title>
+      <link>http://localhost:1313/tags/dynamic-optimization/</link>
       <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/tags/constraints/</guid>
+      <guid>http://localhost:1313/tags/dynamic-optimization/</guid>
       <description></description>
       
     </item>
@@ -239,21 +399,41 @@
     </item>
     
     <item>
-      <title>Objectives</title>
-      <link>http://localhost:1313/tags/objectives/</link>
-      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/objectives/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Code &amp; Text Editors</title>
       <link>http://localhost:1313/tags/code--text-editors/</link>
       <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/code--text-editors/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Containerization</title>
+      <link>http://localhost:1313/tags/containerization/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/containerization/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker</title>
+      <link>http://localhost:1313/tags/docker/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/docker/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Docker Compose</title>
+      <link>http://localhost:1313/tags/docker-compose/</link>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/docker-compose/</guid>
       <description></description>
       
     </item>
@@ -269,189 +449,9 @@
     </item>
     
     <item>
-      <title>GraphXR</title>
-      <link>http://localhost:1313/tags/graphxr/</link>
-      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/graphxr/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Problem Description</title>
-      <link>http://localhost:1313/tags/problem-description/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/problem-description/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Use Case</title>
-      <link>http://localhost:1313/tags/use-case/</link>
-      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/use-case/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>App Build Plan</title>
-      <link>http://localhost:1313/tags/app-build-plan/</link>
-      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/app-build-plan/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>EDA</title>
-      <link>http://localhost:1313/tags/eda/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/eda/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Schema</title>
-      <link>http://localhost:1313/tags/schema/</link>
-      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/schema/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Variables</title>
-      <link>http://localhost:1313/tags/variables/</link>
-      <pubDate>Sat, 09 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/variables/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>SETS</title>
-      <link>http://localhost:1313/tags/sets/</link>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/sets/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Tuples</title>
-      <link>http://localhost:1313/tags/tuples/</link>
-      <pubDate>Thu, 07 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/tuples/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Memory Efficiency</title>
-      <link>http://localhost:1313/tags/memory-efficiency/</link>
-      <pubDate>Tue, 05 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/memory-efficiency/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Set Work</title>
-      <link>http://localhost:1313/tags/set-work/</link>
-      <pubDate>Mon, 04 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/set-work/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Model Assembly at Runtime</title>
-      <link>http://localhost:1313/tags/model-assembly-at-runtime/</link>
-      <pubDate>Sun, 03 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/model-assembly-at-runtime/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Solver Tuning</title>
-      <link>http://localhost:1313/tags/solver-tuning/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/solver-tuning/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>AI-Assisted Coding</title>
-      <link>http://localhost:1313/tags/ai-assisted-coding/</link>
-      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/ai-assisted-coding/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Dynamic Optimization</title>
-      <link>http://localhost:1313/tags/dynamic-optimization/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/dynamic-optimization/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Containerization</title>
-      <link>http://localhost:1313/tags/containerization/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/containerization/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Docker</title>
-      <link>http://localhost:1313/tags/docker/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/docker/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Docker Compose</title>
-      <link>http://localhost:1313/tags/docker-compose/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/tags/docker-compose/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Hardware</title>
       <link>http://localhost:1313/tags/hardware/</link>
-      <pubDate>Tue, 27 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/hardware/</guid>
       <description></description>
@@ -461,7 +461,7 @@
     <item>
       <title>Mistakes</title>
       <link>http://localhost:1313/tags/mistakes/</link>
-      <pubDate>Sun, 25 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/mistakes/</guid>
       <description></description>
@@ -471,7 +471,7 @@
     <item>
       <title>App Handover</title>
       <link>http://localhost:1313/tags/app-handover/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/app-handover/</guid>
       <description></description>
@@ -481,7 +481,7 @@
     <item>
       <title>Summary</title>
       <link>http://localhost:1313/tags/summary/</link>
-      <pubDate>Sat, 24 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/summary/</guid>
       <description></description>

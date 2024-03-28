@@ -21,7 +21,7 @@
     <item>
       <title>Tune the Solver!!!</title>
       <link>http://localhost:1313/compendium/lego/solver-tuning/</link>
-      <pubDate>Sat, 02 Mar 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 17 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/solver-tuning/</guid>
       <description>We explore the solving-time impact of our linear solver&amp;rsquo;s (HiGHS) various params/options, and use these to tune the solver for significantly faster performance on our optimization problem.</description>

@@ -1,8 +1,8 @@
 ---
 title: "The Problem Description"
 description: "An introduction to the community in which the opportunity to build a real-time optimization arises and a description of the 'Multi-Build' search it performs for LEGO enthusiasts, finding multiple LEGO sets that can be built concurrently from parts in a given person's part inventory."
-date: "2024-03-12"
-lastmod: "2024-03-23"
+date: "2024-03-27"
+lastmod: "2024-03-28"
 
 tags: ["Problem Description","Use Case","Objectives"]
 series: ["LEGO"]

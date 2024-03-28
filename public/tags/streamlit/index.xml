@@ -21,7 +21,7 @@
     <item>
       <title>Add a Streamlit User Interface</title>
       <link>http://localhost:1313/compendium/lego/streamlit-user-interface/</link>
-      <pubDate>Thu, 29 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Fri, 15 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/streamlit-user-interface/</guid>
       <description>Now that our optimization app&amp;rsquo;s non-model logic script (aka &amp;rsquo;the main script&amp;rsquo;) is in Python, we add a lovely Streamlit UI to replace our text-based UI, created with help from our cheerful AI coding assistant.</description>
@@ -31,7 +31,7 @@
     <item>
       <title>Go Dynamic! ...with iterative solving</title>
       <link>http://localhost:1313/compendium/lego/dynamic-solving/</link>
-      <pubDate>Wed, 28 Feb 2024 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 14 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/dynamic-solving/</guid>
       <description>Our new Streamlit interface makes it easy to imagine and implement an important new feature: the ability to &amp;lsquo;pin&amp;rsquo; one or more suggested LEGO® sets, discarding the others, and resolving, so that the user can iteratively arrive at an attractive collection of buildable sets.</description>

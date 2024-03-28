@@ -1,8 +1,8 @@
 ---
 title: "Make on-the-fly model mods"
 description: "We add functionality to our script which selectively drops constraints as needed, per user-specified options, effectively changing the form of our optimization model on-the-fly. The modularity of model components is emphasized and extreme approaches to their custom run-time construction discussed."
-date: "2024-03-03"
-lastmod: "2024-03-23"
+date: "2024-03-18"
+lastmod: "2024-03-28"
 
 tags: ["Constraints","App Logic","Model Assembly at Runtime","AMPL"]
 series: ["LEGO"]

@@ -1,8 +1,8 @@
 ---
 title: "Plan the Buildout"
 description: "Wherein a plan for building our optimization application is sketched out, starting with a bare-bones optimization model, then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app."
-date: "2024-03-11"
-lastmod: "2024-03-23"
+date: "2024-03-26"
+lastmod: "2024-03-28"
 
 tags: ["App Build Plan","Python","UI"]
 series: ["LEGO"]
