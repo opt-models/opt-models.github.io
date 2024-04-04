@@ -1,6 +1,6 @@
 [[main]]
-name = "The Compendium"
-pageRef = "The Compendium"
+name = "Compendium Chapters"
+pageRef = "Compendium Chapters"
 weight = 1
 
 [[main]]
@@ -12,62 +12,62 @@ weight = 2
 
 [[main]]
   name = "Welcome!"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "/"
   weight = 1
 [[main]]
   name = "**RELEASING NOW:** Building the LEGO® Opt App"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/lego"
   weight = 2
 [[main]]
   name = "[COMING SOON] Magical Opt Programming"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/magical-optimization-programming"
   weight = 3
 [[main]]
   name = "[COMING SOON] Optimization Toolchain"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/toolchain"
   weight = 4
 [[main]]
   name = "[COMING SOON] Five Parts of an Opt Model"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/optimization-model-parts"
   weight = 5
 [[main]]
   name = "[COMING SOON] Dev Creature Comforts"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/dev-creature-comforts"
   weight = 6
 [[main]]
   name = "[COMING SOON] Practical Optimization Theory"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/theory"
   weight = 7
 [[main]]
   name = "[COMING SOON] Speeding Opt Apps"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/speeding-opt-apps"
   weight = 8
 [[main]]
   name = "[COMING SOON] Optimization Market Predictions"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/optimization-markets-beyond-2024"
   weight = 9
 [[main]]
   name = "[COMING SOON] Optimization ❤️ AI"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/opt-loves-ai"
   weight = 10
 [[main]]
   name = "[COMING SOON] Thank you to ..."
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/thank-you"
   weight = 11
 [[main]]
   name = "[COMING SOON] Hey, Community!"
-  parent = "The Compendium"
+  parent = "Compendium Chapters"
   pageRef = "compendium/hey-community"
   weight = 12
 
