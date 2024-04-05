@@ -24,3 +24,7 @@ This is the first of eighteen videos over which we build an app for the awesome 
 ...the pursuit of speed of execution in large-scale optimization applications. More broadly, it's about welcoming the interested outsider to the beautiful thing that is optimization programming, as it is in its natural habitat: the wilds of industry. 
 
 Most of all, this is about having some fun with a bit of LEGO, coffee and friends. Let's build something! ❤️
+
+### Let's discuss this...
+
+{{< button href="https://app.heymaven.com/discover/45525" target="_blank">}} ...on Maven! {{< /button >}}
