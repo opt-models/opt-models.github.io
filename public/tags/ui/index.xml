@@ -15,7 +15,7 @@
       
       <guid>http://localhost:1313/compendium/lego/buildout-plan/</guid>
       <description>We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/buildout-plan/feature-05-02-coming-soon.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/buildout-plan/feature-05-02.png" />
     </item>
     
     <item>

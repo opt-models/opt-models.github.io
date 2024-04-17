@@ -9,4 +9,8 @@ series: ["LEGO"]
 series_order: 2
 ---
 
+{{< youtubeLite id="PUeQE5cZiQ8" label="LEGO® Opt App - PART 02: Plan the Buildout!" >}}
+
 We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.
+
+<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="720" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>

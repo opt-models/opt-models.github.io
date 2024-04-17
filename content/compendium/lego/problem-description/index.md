@@ -25,6 +25,4 @@ This is the first of eighteen videos over which we build an app for the awesome 
 
 Most of all, this is about having some fun with a bit of LEGO, coffee and friends. Let's build something! ❤️
 
-### Let's discuss this...
-
-{{< button href="https://app.heymaven.com/discover/45525" target="_blank">}} ...on Maven! {{< /button >}}
+<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="720" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
