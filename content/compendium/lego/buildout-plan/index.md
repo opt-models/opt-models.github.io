@@ -13,4 +13,8 @@ series_order: 2
 
 We sketch a plan for building our optimization application, starting with a bare-bones optimization model and then adding a data connection and simple text-based UI. Later we swap out the AMPL scripting language for Python and the text-based UI for Streamlit, and then containerize the app.
 
-<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="720" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+## Access the [**whiteboard here**](https://whimsical.com/lego-opt-app-XtvLLsQJvGuQ4Hp1KJVeHc@6HYTAunKLgTYURmLdE677uerzUQHNvR1PUYHLH59NBdjxjb)!
+
+## Join the Discord ...
+
+<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="340" height="340" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>

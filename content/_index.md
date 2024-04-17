@@ -14,7 +14,7 @@ description: "A compendium of video conversations and code for folks building la
 {{< /timelineItem >}}
 
 {{< timelineItem icon="heart-empty">}}
-<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="720" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="340" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
 {{< /timelineItem >}}
 
 {{< /timeline >}}

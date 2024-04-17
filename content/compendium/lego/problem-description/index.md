@@ -11,7 +11,7 @@ series_order: 1
 
 {{< youtubeLite id="HCJ7cVceJ9s" label="LEGO® Opt App - PART 01: The Problem Description" >}}
 
-### SERIES INTRO! 
+## SERIES INTRO! 
 
 This is the first of eighteen videos over which we build an app for the awesome [Rebrickable®](https://rebrickable.com/home/) community, which finds multiple [LEGO®](https://www.lego.com/en-us) sets buildable concurrently from a user's part inventory.
 
@@ -25,4 +25,7 @@ This is the first of eighteen videos over which we build an app for the awesome 
 
 Most of all, this is about having some fun with a bit of LEGO, coffee and friends. Let's build something! ❤️
 
-<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="720" height="300" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
+
+## Join the Discord ...
+
+<iframe src="https://discord.com/widget?id=1226293117787836467&theme=dark" width="340" height="340" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>
