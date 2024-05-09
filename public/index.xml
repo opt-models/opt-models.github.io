@@ -34,8 +34,8 @@
       <pubDate>Mon, 25 Mar 2024 00:00:00 +0000</pubDate>
       
       <guid>http://localhost:1313/compendium/lego/data-unboxing/</guid>
-      <description>A methodical walk through our domain data about all LEGO® parts, sets and minifigs, as supplied by Rebrickable.com. We use GraphXR for Exploratory Data Analysis (EDA), Whimsical for annotating our database schema and for redrawing the data structure in the form that we will use in our optimization app.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/data-unboxing/feature-05-03-coming-soon.png" />
+      <description>We walk through our LEGO data from Rebrickable.com and - using GraphXR for exploratory data analysis (EDA) - we translate its schema into an Entity Relationship Diagram, yielding our optimization app&amp;rsquo;s main entities! (We also meet Legolas Greenleaf, Frankie Poullain and The Darkness &amp;hellip;)</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:1313/compendium/lego/data-unboxing/feature-05-03.png" />
     </item>
     
     <item>
